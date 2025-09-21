@@ -28,7 +28,7 @@ const Projects = () => {
       title: "Pixel Adventure",
       description: "2D game made in Unity with learning pixel art.",
       tech: ["Unity 2D", "Piskel", "After Effects"],
-      link: "#",
+      link: "https://alexrkv11.itch.io/pixel-adventure",
       image: pixelAdventureImg,
     },
     {

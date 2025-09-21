@@ -1,6 +1,7 @@
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import meImage from '../assets/me.webp'; // make sure this path is correct
+import { Link } from 'react-router-dom';
+import meImage from '../assets/me.webp';
 import './Home.scss';
 
 export default function Home() {
@@ -17,8 +18,8 @@ export default function Home() {
               <p><strong>Alexander Rankov</strong></p>
               <p>Passionate about video games and programming. Ready to tackle new challenges and create captivating experiences.</p>
               <div className="buttons">
-                <a href="#projects">View My Projects</a>
-                <a href="#about">About Me</a>
+                <Link to="/projects">View My Projects </Link>
+                <Link to="/about">About Me</Link> 
               </div>
             </div>
             <div className="image">
@@ -42,7 +43,7 @@ export default function Home() {
               <h3>Hockey Québec</h3>
               <p>Video editing, internship, Hockey Québec</p>
             </div>
-            {/* <div className="project">
+            <div className="project">
               <h3>Quiz Aviation</h3>
               <p>HTML 5, CSS 3, JavaScript, Web development</p>
             </div>
@@ -53,7 +54,7 @@ export default function Home() {
             <div className="project">
               <h3>Hockey Québec</h3>
               <p>Video editing, internship, Hockey Québec</p>
-            </div> */}
+            </div>
           </div>
         </div>
       </div>

@@ -115,18 +115,19 @@
       max-width: 1000px;
     }
 
-    .home .hero-rectangle .hero-content .text .buttons{
-      justify-content: flex-start;
-    }
-
     .hero-rectangle .hero-content {
       flex-direction: row;
       align-items: center;
       text-align: left;
       justify-content: space-between;
+      gap: 14rem;
 
       .text {
         flex: 2;
+
+        .buttons{
+          justify-content: flex-start;
+        }
       }
 
       .image {
