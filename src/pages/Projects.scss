@@ -1,0 +1,29 @@
+@import "../styles/variables";
+@import "../styles/mixins";
+
+.projects {
+  padding: 2rem 1rem;
+
+  h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+
+  .project-grid {
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: 1fr;
+  }
+
+  @media (min-width: 768px) {
+    .project-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  @media (min-width: 1024px) {
+    .project-grid {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+}

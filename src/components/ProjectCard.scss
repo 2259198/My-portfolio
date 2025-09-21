@@ -1,0 +1,33 @@
+@import "../styles/variables";
+@import "../styles/mixins";
+
+.project-card {
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  overflow: hidden;
+  transition: transform 0.2s ease;
+
+  &:hover {
+    transform: translateY(-5px);
+  }
+
+  img {
+    width: 100%;
+    display: block;
+  }
+
+  .card-content {
+    padding: 1rem;
+
+    h3 {
+      margin: 0 0 0.5rem;
+      font-size: 1.25rem;
+    }
+
+    p {
+      color: #555;
+      font-size: 0.95rem;
+    }
+  }
+}
