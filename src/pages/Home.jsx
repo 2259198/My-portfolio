@@ -42,6 +42,18 @@ export default function Home() {
               <h3>Hockey Québec</h3>
               <p>Video editing, internship, Hockey Québec</p>
             </div>
+            {/* <div className="project">
+              <h3>Quiz Aviation</h3>
+              <p>HTML 5, CSS 3, JavaScript, Web development</p>
+            </div>
+            <div className="project">
+              <h3>Hockey Québec</h3>
+              <p>Video editing, internship, Hockey Québec</p>
+            </div>
+            <div className="project">
+              <h3>Hockey Québec</h3>
+              <p>Video editing, internship, Hockey Québec</p>
+            </div> */}
           </div>
         </div>
       </div>

@@ -1,29 +1,38 @@
-import React, { useState } from 'react';
+// === Header.jsx ===
+import React, { useState, useEffect } from 'react';
+import { Link } from 'react-router-dom';
 import './Header.scss';
 
 export default function Header() {
-  const [menuOpen, setMenuOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState(false);
+  const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
 
-  const handleLinkClick = () => {
-    setMenuOpen(false);
-  };
+  const toggleMenu = () => setIsOpen(!isOpen);
+
+  useEffect(() => {
+    const handleResize = () => setIsMobile(window.innerWidth < 768);
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
 
   return (
     <header className="header">
-      <nav className="container">
-        <h1>My Portfolio</h1>
-        <ul className={`nav-links ${menuOpen ? 'open' : ''}`}> 
-          <li><a href="/" onClick={handleLinkClick}>Home</a></li>
-          <li><a href="/projects" onClick={handleLinkClick}>Projects</a></li>
-          <li><a href="/about" onClick={handleLinkClick}>About</a></li>
-          <li><a href="/contact" onClick={handleLinkClick}>Contact</a></li>
-        </ul>
-        <div className={`hamburger ${menuOpen ? 'active' : ''}`} onClick={() => setMenuOpen(!menuOpen)}>
-          <span></span>
-          <span></span>
-          <span></span>
-        </div>
+      <div className="logo">
+        <Link to="/">Alexander Rankov</Link>
+      </div>
+      <nav className={`nav-links ${isOpen && isMobile ? 'open' : ''}`}>
+        <Link to="/" onClick={() => setIsOpen(false)}>Home</Link>
+        <Link to="/projects" onClick={() => setIsOpen(false)}>Projects</Link>
+        <Link to="/about" onClick={() => setIsOpen(false)}>About</Link>
+        <Link to="/contact" onClick={() => setIsOpen(false)}>Contact</Link>
       </nav>
+      {isMobile && (
+        <div className="burger" onClick={toggleMenu}>
+          <div className={`line ${isOpen ? 'open' : ''}`}></div>
+          <div className={`line ${isOpen ? 'open' : ''}`}></div>
+          <div className={`line ${isOpen ? 'open' : ''}`}></div>
+        </div>
+      )}
     </header>
   );
 }
