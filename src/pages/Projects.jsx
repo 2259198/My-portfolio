@@ -6,6 +6,9 @@ import pixelAdventureImg from "../assets/pixel-adventure.png";
 import goldenDragonImg from "../assets/Golden_Dragon.png";
 import crowImg from "../assets/Crow.png";
 import quizAviationImg from "../assets/aviation.png";
+import hockeyQuebecImg from "../assets/Hockey_Quebec.png";
+import astroDashImg from "../assets/Astro_Dash.png";
+import airImg from "../assets/air.png"
 
 
 const Projects = () => {
@@ -52,6 +55,27 @@ const Projects = () => {
       link: "https://2259198.github.io/Quiz-Aviation/",
       image: quizAviationImg,
     },
+    {
+      title: "Hockey Québec",
+      description: "Vidéo faites durant mon stage chez Hockey Québec",
+      tech: ["After Effects", "Illustrator"],
+      link: "https://www.youtube.com/playlist?list=PLVJ9ECOMr_AOgGoC_Jxvu4xcV_a0DsJQS",
+      image: hockeyQuebecImg
+    },
+    {
+      title: "Astro Dash",
+      description: "3D arcade game made all by myself during my freetime",
+      tech: ["Unity 3D", "Illustrator"],
+      link: "https://alexrkv11.itch.io/astro-dash",
+      image: astroDashImg
+    },
+    {
+      title: "AIR",
+      description: "Project made for earth's day",
+      tech: ["Illustrator"],
+      link: "https://www.cmaisonneuve.qc.ca/environnement/jour-de-la-terre/#Air",
+      image: airImg
+    }
   ];
 
 
