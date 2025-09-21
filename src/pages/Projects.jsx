@@ -1,11 +1,11 @@
 import React from "react";
 import "./Projects.scss";
-import achernarImg from "../assets/me.webp";
-import todoImg from "../assets/me.webp";
-import pixelAdventureImg from "../assets/me.webp";
-import goldenDragonImg from "../assets/me.webp";
-import crowImg from "../assets/me.webp";
-import quizAviationImg from "../assets/me.webp";
+import achernarImg from "../assets/achernar.png";
+import todoImg from "../assets/to-do-list.png";
+import pixelAdventureImg from "../assets/pixel-adventure.png";
+import goldenDragonImg from "../assets/Golden_Dragon.png";
+import crowImg from "../assets/Crow.png";
+import quizAviationImg from "../assets/aviation.png";
 
 
 const Projects = () => {
