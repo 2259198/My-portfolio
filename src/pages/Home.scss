@@ -105,6 +105,27 @@
     }
   }
 
+  .projects-button {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.projects-button a {
+  padding: 0.9rem 2rem;
+  background: #0077ff;
+  color: #fff;
+  font-size: 1.05rem;
+  border-radius: 50px;
+  text-decoration: none;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  transition: all 0.3s ease;
+}
+
+.projects-button a:hover {
+  transform: translateY(-3px) scale(1.03);
+}
+
   @media (min-width: 768px) {
 
     .home .hero-rectangle{

@@ -19,7 +19,7 @@ export default function Home() {
               <p>Passionate about video games and programming. Ready to tackle new challenges and create captivating experiences.</p>
               <div className="buttons">
                 <Link to="/projects">View My Projects </Link>
-                <Link to="/about">About Me</Link> 
+                <Link to="/about">About Me</Link>
               </div>
             </div>
             <div className="image">
@@ -28,33 +28,54 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="showcase">
-          <h2>Highlights</h2>
+        <div className="showcase" id="projects">
+          <h2>Sneak peek of my projects</h2>
           <div className="projects">
             <div className="project">
               <h3>Achernar</h3>
-              <p>3D game, adventure, made in Unity</p>
+              <p>3D Game</p>
+              <p>Unity</p>
+              <p>Adventure</p>
+              <p>Collaboration</p>
             </div>
             <div className="project">
               <h3>To-do List</h3>
-              <p>React, to-do list web page</p>
+              <p>React</p>
+              <p>Web App</p>
+              <p>Management</p>
+              <p>Design</p>
             </div>
             <div className="project">
-              <h3>Hockey Québec</h3>
-              <p>Video editing, internship, Hockey Québec</p>
+              <h3>HQ</h3>
+              <p>Internship</p>
+              <p>Video Editing</p>
+              <p>After Effects</p>
+              <p>Branding</p>
             </div>
             <div className="project">
-              <h3>Quiz Aviation</h3>
-              <p>HTML 5, CSS 3, JavaScript, Web development</p>
+              <h3>Quiz</h3>
+              <p>JavaScript</p>
+              <p>HTML5</p>
+              <p>CSS3</p>
+              <p>Interactive Quiz</p>
             </div>
             <div className="project">
-              <h3>Hockey Québec</h3>
-              <p>Video editing, internship, Hockey Québec</p>
+              <h3>Astro Dash</h3>
+              <p>Unity 3D</p>
+              <p>Solo Project</p>
+              <p>Arcade</p>
+              <p>Design</p>
             </div>
             <div className="project">
-              <h3>Hockey Québec</h3>
-              <p>Video editing, internship, Hockey Québec</p>
+              <h3>Pixel</h3>
+              <p>Unity 2D</p>
+              <p>Pixel Art</p>
+              <p>Asset Creation</p>
+              <p>Retro Style</p>
             </div>
+          </div>
+          <div className="projects-button">
+            <Link to="/projects">View all of my projects</Link>
           </div>
         </div>
       </div>
