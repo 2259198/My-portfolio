@@ -29,24 +29,39 @@ export default function About() {
 
           <h3>Tools & Technologies</h3>
           <div className="skill-list">
-            <span>VS Code</span><span>Visual Studio</span><span>Eclipse</span><span>IntelliJ</span>
-            <span>Maya</span><span>Blender</span><span>Unity</span><span>Unreal Engine</span>
-            <span>Godot</span><span>Github</span><span>Premiere Pro</span><span>After Effects</span>
-            <span>Media Encoder</span><span>Audition</span><span>Illustrator</span><span>Photoshop</span>
-            <span>XD</span><span>Substance Painter</span><span>Trello</span><span>Wordpress</span>
+            <span>VS Code</span>
+            <span>Visual Studio</span>
+            <span>Eclipse</span>
+            <span>IntelliJ</span>
+            <span>Maya</span>
+            <span>Blender</span>
+            <span>Unity</span>
+            <span>Unreal Engine</span>
+            <span>Godot</span>
+            <span>Github</span>
+            <span>Premiere Pro</span>
+            <span>After Effects</span>
+            <span>Media Encoder</span>
+            <span>Audition</span>
+            <span>Illustrator</span>
+            <span>Photoshop</span>
+            <span>XD</span>
+            <span>Substance Painter</span>
+            <span>Trello</span>
+            <span>Wordpress</span>
           </div>
         </div>
 
         <div className="experience">
           <h3>Education</h3>
           <ul>
-            <li>Bachelor's Degree in Software Engineering (2025 - Currently)</li>
+            <li>Bachelor's Degree in Software Engineering (2025 - Current)</li>
             <li>College Diploma in Multimedia Integration (2022 - 2025)</li>
           </ul>
           <h3>Experience</h3>
           <ul>
-            <li>Internship (March 2025 - May 2025): Video Intern Editor at Hockey Québec</li>
-            <li>July 2024 - Current: Bagger at Metro</li>
+            <li>Internship (March 2025 - May 2025) : Video Intern Editor at Hockey Québec</li>
+            <li>July 2024 - Current : Bagger at Metro</li>
           </ul>
         </div>
 

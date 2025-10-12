@@ -29,14 +29,14 @@ const Projects = () => {
     },
     {
       title: "Quiz Aviation",
-      description: "An interactive web quiz built using JavaScript, designed to test users' knowledge of aviation. This project allowed me to practice DOM manipulation, and creating an engaging experience through front-end coding. It was the first time we learned to code with different screen sizes..",
+      description: "An interactive web quiz built using JavaScript, designed to test users' knowledge of aviation. This project allowed me to practice DOM manipulation, and creating an engaging experience through front-end coding. It was the first time we learned to code with different screen sizes. If you're a fan of aviation, try it.",
       tech: ["HTML", "CSS", "JavaScript"],
       link: "https://2259198.github.io/Quiz-Aviation/",
       image: quizAviationImg,
     },
     {
       title: "Pixel Adventure",
-      description: "A 2D Unity game developed as a personal summer project, where I learned pixel art and created all of the visual assets myself. The game challenged me to design mechanics such as a game manager and basic interactions. It was a game I made in five to six months. I also learned how to organize my Trello.",
+      description: "A 2D Unity game developed as a personal summer project, where I learned pixel art and created all of the visual assets myself. The game challenged me to design mechanics such as a game manager and basic interactions. It was a game I made in five to six months.",
       tech: ["Unity 2D", "Piskel", "After Effects"],
       link: "https://alexrkv11.itch.io/pixel-adventure",
       image: pixelAdventureImg,
