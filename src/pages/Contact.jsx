@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './Contact.scss';
+import CV_English from "../assets/Rankov_Alexander_CV_EN.pdf";
 
 export default function Contact() {
   const [formData, setFormData] = useState({ name: '', email: '', message: '' });
@@ -26,6 +27,9 @@ export default function Contact() {
             <a href="https://www.linkedin.com/in/alexander-rankov-19aa77309/" target="_blank">LinkedIn</a>
             <a href="https://github.com/2259198" target="_blank">GitHub</a>
             <a href="https://alexrkv11.itch.io/" target="_blank">Itch.io</a>
+          </div>
+          <div className='CV_download'>
+              <a className='btn_download' href={CV_English} download="Rankov_Alexander_CV_EN.pdf">Download CV</a>
           </div>
         </div>
 
