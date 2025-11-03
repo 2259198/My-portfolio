@@ -90,7 +90,7 @@
       transition: background 0.2s;
 
       &:hover {
-        background: #005bb5;
+        background: $primary-color-hover;
       }
     }
   }

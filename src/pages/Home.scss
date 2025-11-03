@@ -56,7 +56,7 @@
             transition: background 0.2s;
             text-align: center;
             &:hover {
-              background: #005bb5;
+              background: $primary-color-hover;
             }
           }
         }

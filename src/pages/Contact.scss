@@ -47,7 +47,7 @@
       font-weight: 500;
       transition: color 0.2s;
       &:hover {
-        color: #005bb5;
+        color: $primary-color-hover;
       }
     }
   }
@@ -64,7 +64,7 @@
     border-radius: 10px;
 
     &:hover{
-      background: 005bb5;
+      background: $primary-color-hover;
     }
   }
 
@@ -99,7 +99,7 @@
       cursor: pointer;
       transition: background 0.2s;
       &:hover {
-        background: #005bb5;
+        background: $primary-color-hover;
       }
     }
   }
