@@ -10,7 +10,7 @@
 
     .back-btn {
         padding: 0.5rem 1.5rem;
-        background: #0077ff;
+        background: $primary-color;
         color: white;
         border-radius: 20px;
         text-decoration: none;
@@ -52,7 +52,7 @@
             margin-bottom: 1rem;
 
             li {
-                background: #0077ff;
+                background: $primary-color;
                 color: white;
                 padding: 0.5rem 1rem;
                 border-radius: 10px;
@@ -70,7 +70,7 @@
 
         a {
             padding: 0.8rem 1.8rem;
-            background: #0077ff;
+            background: $primary-color;
             color: white;
             border-radius: 30px;
             text-decoration: none;
