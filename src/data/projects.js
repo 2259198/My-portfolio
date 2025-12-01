@@ -6,13 +6,16 @@ import crowImg from "../assets/Crow.png";
 import quizAviationImg from "../assets/aviation.png";
 import hockeyQuebecImg from "../assets/Hockey_Quebec.png";
 import astroDashImg from "../assets/Astro_Dash.png";
-import airImg from "../assets/air.png"
+import airImg from "../assets/air.png";
+
+import afterEffectsImg from "../assets/Icons/adobe-after-effects.png";
 
 const projects = [
   {
       title: "Achernar",
       description: "A 3D adventure game created in Unity as a team of four over four months. The project involved designing characters, environments, and gameplay mechanics, while also learning to collaborate effectively with version control tools like GitHub. My contributions included programming, asset integration, and project management.",
       inDepthDescription : "3D Adventure Game (Unity) — Team Project (4 months) \n We developed a fully 3D adventure game in Unity as part of a four-person team composed of me (programming & asset integration), Guillaume Ducharme-Vanier (level design), Maëlle Léger (3D art), and Olivier Poulin (project lead & sound design). \n The project involved creating the game’s world, characters, mechanics, and overall player experience from the ground up. My responsibilities included programming core gameplay systems in C#, integrating 3D models, textures, animations, and audio into Unity, and helping coordinate development tasks through GitHub and Trello. I also contributed to technical problem-solving, iterative prototyping, and ensuring smooth collaboration through version control and structured workflows.",
+      icon: [afterEffectsImg],
       tech: ["Unity 3D", "Maya", "Github"],
       link: "https://alexrkv11.itch.io/projet-achernar",
       image: achernarImg,
@@ -29,7 +32,7 @@ const projects = [
       title: "Quiz Aviation",
       description: "An interactive web quiz built using JavaScript, designed to test users' knowledge of aviation. This project allowed me to practice DOM manipulation, and creating an engaging experience through front-end coding. It was the first time we learned to code with different screen sizes. If you're a fan of aviation, try it.",
       inDepthDescription : "",
-      tech: ["HTML", "CSS", "JavaScript"],
+      tech: ["HTML 5", "CSS 3", "JavaScript"],
       link: "https://2259198.github.io/Quiz-Aviation/",
       image: quizAviationImg,
     },
@@ -53,7 +56,7 @@ const projects = [
       title: "Redesign 'Crow'",
       description: "A complete redesign of the Centre d'entraînement Crow website. The focus of this project was on improving user experience, and updating the visual identity. I worked with HTML, CSS, and Adobe XD to prototype the new layout with my classmate Minji Ardanuy-Jetté.",
       inDepthDescription : "",
-      tech: ["HTML5", "CSS3", "Adobe Xd"],
+      tech: ["HTML 5", "CSS 3", "Adobe XD"],
       link: "https://2259198.github.io/Refonte-Centre-Entrainement-Crow/",
       image: crowImg,
     },
