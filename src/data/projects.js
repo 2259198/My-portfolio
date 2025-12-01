@@ -8,17 +8,17 @@ import hockeyQuebecImg from "../assets/Hockey_Quebec.png";
 import astroDashImg from "../assets/Astro_Dash.png";
 import airImg from "../assets/air.png";
 
-import adobeAfterEffectsImg from "../assets/Icons/adobe-after-effects.png";
-import adobePremiereProImg from "../assets/Icons/adobe-premiere-pro.png";
-import adobeXDImg from "../assets/Icons/adobe-xd.png";
-import cssImg from "../assets/Icons/css3.png";
-import githubImg from "../assets/Icons/github.png";
-import htmlImg from "../assets/Icons/html5.png";
-import adobeIllustratorImg from "../assets/Icons/illustrator.png";
-import javascriptImg from "../assets/Icons/javascript.png";
-import reactImg from "../assets/Icons/react-native.png";
-import unityImg from "../assets/Icons/unity.png";
-import visualStudioCodeImg from "../assets/Icons/visual-studio.png";
+import adobeAfterEffectsImg from "../assets/Icons/adobe-after-effects.svg";
+import adobePremiereProImg from "../assets/Icons/adobe-premiere-pro.svg";
+import adobeXDImg from "../assets/Icons/adobe-xd.svg";
+import cssImg from "../assets/Icons/css3.svg";
+import githubImg from "../assets/Icons/github.svg";
+import htmlImg from "../assets/Icons/html5.svg";
+import adobeIllustratorImg from "../assets/Icons/illustrator.svg";
+import javascriptImg from "../assets/Icons/javascript.svg";
+import reactImg from "../assets/Icons/react-native.svg";
+import unityImg from "../assets/Icons/unity.svg";
+import visualStudioCodeImg from "../assets/Icons/visual-studio.svg";
 
 
 const projects = [
