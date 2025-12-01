@@ -12,9 +12,8 @@ const ProjectDetails = () => {
     return (
         <div className="project-details">
             
-                <Link to="/projects" className="back-btn">
-                    ←
-                </Link>
+            <Link to="/projects" className="back-btn"> ← </Link>
+
             <div className="container-projects">
                 <h1>{project.title}</h1>                
                 <img src={project.image} alt={project.title} />
