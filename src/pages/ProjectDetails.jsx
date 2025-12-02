@@ -17,7 +17,7 @@ const ProjectDetails = () => {
             <div className="container-projects">
                 <h1>{project.title}</h1>                
                 <img src={project.image} alt={project.title} />
-                <p>{project.description}</p>
+                <p>{project.inDepthDescription}</p>
                 <ul className="list">
                     {project.icon.map((t, i) => (
                         <li key={i}>
