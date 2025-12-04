@@ -15,8 +15,10 @@ const Projects = () => {
               <h2>{project.title}</h2>
               <p>{project.description}</p>
               <ul className="tech-list">
-                {project.tech.map((t, i) => (
-                  <li key={i}>{t}</li>
+                {project.icon.map((t, i) => (
+                  <li key={i}>
+                    <img src={t} alt={`${project.title} icon ${i}`} />
+                  </li>
                 ))}
               </ul>
 
