@@ -22,7 +22,6 @@ const Projects = () => {
                 ))}
               </ul>
 
-              {/* Internal link to details page */}
               <Link to={`/projects/${index}`} className="learn-more">
                 Learn More
               </Link>
