@@ -10,12 +10,12 @@ import linkedInLogo from "../assets/Icons/linkedin.svg";
 export default function Footer() {
   return (
     <footer className="footer">
-      <ul className="socials">
+      <div className="socials">
         <Link to=""><img src={instagramLogo} alt="Instagram logo" /></Link>
-        <Link to=""><img src={githubLogo} alt="Github logo" /></Link>
+        <Link to="https://github.com/2259198"><img src={githubLogo} alt="Github logo" /></Link>
         <Link to=""><img src={itchLogo} alt="itch.io logo" /></Link>
-        <Link to=""><img src={linkedInLogo} alt="LinkedIn logo" /></Link>
-      </ul>
+        <Link to="https://www.linkedin.com/in/alexander-rankov-19aa77309/"><img src={linkedInLogo} alt="LinkedIn logo" /></Link>
+      </div>
       <p>© {new Date().getFullYear()} My Portfolio. All rights reserved to Alexander Rankov.</p>
     </footer>
   );

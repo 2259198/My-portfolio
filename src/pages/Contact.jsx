@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import './Contact.scss';
 import CV_English from "../assets/Rankov_Alexander_CV_EN.pdf";
+import gmailLogo from "../assets/Icons/gmail-logo.svg";
 
 export default function Contact() {
   const [formData, setFormData] = useState({ name: '', email: '', message: '' });
@@ -24,6 +26,7 @@ export default function Contact() {
           <p>Phone: 514-746-9895</p>
           <p>Location: Vaudreuil-Dorion, Québec</p>
           <div className="social-links">
+            {/* <Link to="alexanderrankov@gmail.com" className='logo'><img src={gmailLogo} alt="This is the gmail logo" /></Link> */}
             <a href="https://www.linkedin.com/in/alexander-rankov-19aa77309/" target="_blank">LinkedIn</a>
             <a href="https://github.com/2259198" target="_blank">GitHub</a>
             <a href="https://alexrkv11.itch.io/" target="_blank">Itch.io</a>
