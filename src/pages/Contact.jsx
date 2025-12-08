@@ -2,7 +2,10 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './Contact.scss';
 import CV_English from "../assets/Rankov_Alexander_CV_EN.pdf";
-import gmailLogo from "../assets/Icons/gmail-logo.svg";
+import gmailLogo from "../assets/Icons/gmail.svg";
+import linkedInLogo from "../assets/Icons/linkedin_blue.svg";
+import githubLogo from "../assets/Icons/github_blue.svg";
+import itchLogo from "../assets/Icons/itch_io_blue.svg";
 
 export default function Contact() {
   const [formData, setFormData] = useState({ name: '', email: '', message: '' });
@@ -26,10 +29,10 @@ export default function Contact() {
           <p>Phone: 514-746-9895</p>
           <p>Location: Vaudreuil-Dorion, Québec</p>
           <div className="social-links">
-            {/* <Link to="alexanderrankov@gmail.com" className='logo'><img src={gmailLogo} alt="This is the gmail logo" /></Link> */}
-            <a href="https://www.linkedin.com/in/alexander-rankov-19aa77309/" target="_blank">LinkedIn</a>
-            <a href="https://github.com/2259198" target="_blank">GitHub</a>
-            <a href="https://alexrkv11.itch.io/" target="_blank">Itch.io</a>
+            <Link to="alexanderrankov@gmail.com" className='logo'><img src={gmailLogo} alt="This is the gmail logo" /></Link>
+            <Link to="https://www.linkedin.com/in/alexander-rankov-19aa77309/" className='logo'><img src={linkedInLogo} alt="This is the LinkedIn logo" /></Link>
+            <Link to="https://github.com/2259198" className='logo'><img src={githubLogo} alt="This is the github logo" /></Link>
+            <Link to="https://alexrkv11.itch.io/" className='logo'><img src={itchLogo} alt="This is the itch.io logo" /></Link>
           </div>
           <div className='CV_download'>
               <a className='btn_download' href={CV_English} download="Rankov_Alexander_CV_EN.pdf">Download CV</a>
