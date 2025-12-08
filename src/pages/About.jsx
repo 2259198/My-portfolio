@@ -23,6 +23,13 @@ export default function About() {
         <div className="skills">
           <h3>Technical Skills</h3>
           <div className="skill-list">
+            {/* {
+              skills.map((item,index) => 
+              (
+                <span key={index}>{item.skills}</span>
+              )
+            )
+            } */}
             <span>C#</span><span>C++</span><span>GDscript</span><span>HTML5</span>
             <span>CSS3</span><span>JavaScript</span><span>SASS</span><span>React</span>
           </div>
@@ -36,23 +43,26 @@ export default function About() {
 
         </div>
 
-        <div className="experience">
-          <h3>Education</h3>
-          <ul>
-            <li>Bachelor's Degree in Software Engineering (2025 - Current)</li>
-            <li>College Diploma in Multimedia Integration (2022 - 2025)</li>
-          </ul>
-          <h3>Experience</h3>
-          <ul>
-            <li>Internship (March 2025 - May 2025) : Video Intern Editor at Hockey Québec</li>
-            <li>July 2024 - Current : Bagger at Metro</li>
-          </ul>
+        <div className='personal-life'>
+          <div className="experience">
+            <h3>Education</h3>
+            <ul>
+              <li>Bachelor's Degree in Software Engineering (2025 - Current)</li>
+              <li>College Diploma in Multimedia Integration (2022 - 2025)</li>
+            </ul>
+            <h3>Experience</h3>
+            <ul>
+              <li>Internship (March 2025 - May 2025) : Video Intern Editor at Hockey Québec</li>
+              <li>July 2024 - Current : Bagger at Metro</li>
+            </ul>
+          </div>
+
+          <div className="personal">
+            <h3>Hobbies & Interests</h3>
+            <p>Games, Travel, Programming, Sports, Music, Learning</p>
+          </div>
         </div>
 
-        <div className="personal">
-          <h3>Hobbies & Interests</h3>
-          <p>Games, Travel, Programming, Sports, Music, Learning</p>
-        </div>
       </div>
     </section>
   );

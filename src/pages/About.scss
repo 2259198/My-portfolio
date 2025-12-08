@@ -66,16 +66,29 @@
     }
   }
 
-  .skills, .experience, .personal {
-    width: 100%;
+  .personal-life{
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  }
+
+  .skills, .experience, .personal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    padding: 1rem;
+    border-radius: 1rem;
     
     h3 {
       font-size: 1.5rem;
       margin-bottom: 1rem;
-      color: $primary-color;
+      color: black;
     }
 
     .skill-list {
@@ -102,12 +115,13 @@
       padding: 0;
       // margin: 0 auto;
       max-width: 700px;
-      text-align: left;
+      text-align: center;
 
       li {
         margin-bottom: 0.5rem;
         color: #555;
         font-size: 1rem;
+        text-align: left;
       }
     }
 
@@ -127,15 +141,12 @@
       gap: 2rem;
       align-items: flex-start;
 
-      .info {
-        flex: 1;
-      }
-    }
-
-    .profile{
-
       .bio{
         margin: 0;
+      }
+
+      .info {
+        flex: 1;
       }
     }
 
