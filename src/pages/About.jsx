@@ -1,6 +1,7 @@
 import React from 'react';
 import './About.scss';
 import meImage from '../assets/me.webp';
+import skills from "../data/skills"
 
 export default function About() {
   return (
@@ -8,7 +9,6 @@ export default function About() {
       <div className="container">
         <div className="profile">
           <div className="photo">
-            {/* Add your profile image here */}
             <img src={meImage} alt="Alexander Rankov" />
           </div>
           <div className="info">
@@ -29,27 +29,11 @@ export default function About() {
 
           <h3>Tools & Technologies</h3>
           <div className="skill-list">
-            <span>VS Code</span>
-            <span>Visual Studio</span>
-            <span>Eclipse</span>
-            <span>IntelliJ</span>
-            <span>Maya</span>
-            <span>Blender</span>
-            <span>Unity</span>
-            <span>Unreal Engine</span>
-            <span>Godot</span>
-            <span>Github</span>
-            <span>Premiere Pro</span>
-            <span>After Effects</span>
-            <span>Media Encoder</span>
-            <span>Audition</span>
-            <span>Illustrator</span>
-            <span>Photoshop</span>
-            <span>XD</span>
-            <span>Substance Painter</span>
-            <span>Trello</span>
-            <span>Wordpress</span>
+            {skills.map((item, index) => (
+              <span key={index}>{item.skills}</span>
+            ))}
           </div>
+
         </div>
 
         <div className="experience">
