@@ -1,7 +1,10 @@
 import React from 'react';
 import './About.scss';
 import meImage from '../assets/me.webp';
-import skills from "../data/skills"
+import skills from "../data/skills";
+import educationIcon from "../assets/Icons/education.svg";
+import workIcon from "../assets/Icons/work.svg";
+import videoGameIcon from "../assets/Icons/video-game.svg";
 
 export default function About() {
   return (
@@ -45,6 +48,7 @@ export default function About() {
 
         <div className='personal-life'>
           <div className="education">
+            <img src={educationIcon} alt="This is an education icon" />
             <h3>Education</h3>
             <ul>
               <li>Bachelor's Degree in Software Engineering (2025 - Current)</li>
@@ -52,7 +56,10 @@ export default function About() {
             </ul>
           </div>
 
+          <div className="invisible-line"></div>
+
           <div className="experience">
+            <img src={workIcon} alt="This is a work icon" />
             <h3>Experience</h3>
             <ul>
               <li>Internship (March 2025 - May 2025) : Video Intern Editor at Hockey Québec</li>
@@ -60,7 +67,10 @@ export default function About() {
             </ul>
           </div>
 
+          <div className="invisible-line"></div>
+
           <div className="personal">
+            <img src={videoGameIcon} alt="This is a video game icon" />
             <h3>Hobbies & Interests</h3>
             <p>Games, Travel, Programming, Sports, Music, Learning</p>
           </div>
