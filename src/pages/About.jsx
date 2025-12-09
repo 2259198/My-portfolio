@@ -44,12 +44,15 @@ export default function About() {
         </div>
 
         <div className='personal-life'>
-          <div className="experience">
+          <div className="education">
             <h3>Education</h3>
             <ul>
               <li>Bachelor's Degree in Software Engineering (2025 - Current)</li>
               <li>College Diploma in Multimedia Integration (2022 - 2025)</li>
             </ul>
+          </div>
+
+          <div className="experience">
             <h3>Experience</h3>
             <ul>
               <li>Internship (March 2025 - May 2025) : Video Intern Editor at Hockey Québec</li>
