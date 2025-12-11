@@ -5,6 +5,7 @@ import skills from "../data/skills";
 import educationIcon from "../assets/Icons/education.svg";
 import workIcon from "../assets/Icons/work.svg";
 import videoGameIcon from "../assets/Icons/video-game.svg";
+import { Bold } from 'lucide-react';
 
 export default function About() {
   return (
@@ -51,8 +52,8 @@ export default function About() {
             <img src={educationIcon} alt="This is an education icon" />
             <h3>Education</h3>
             <ul>
-              <li>Bachelor's Degree in Software Engineering (2025 - Current)</li>
-              <li>College Diploma in Multimedia Integration (2022 - 2025)</li>
+              <li>Bachelor's Degree in Software Engineering <b> <br/> (2025 - Current) </b></li>
+              <li>College Diploma in Multimedia Integration <b> <br/> (2022 - 2025) </b> </li>
             </ul>
           </div>
 
@@ -62,7 +63,7 @@ export default function About() {
             <img src={workIcon} alt="This is a work icon" />
             <h3>Experience</h3>
             <ul>
-              <li>Internship (March 2025 - May 2025) : Video Intern Editor at Hockey Québec</li>
+              <li>Internship <b> (March 2025 - May 2025) </b> : Video Intern Editor at Hockey Québec</li>
               <li>July 2024 - Current : Bagger at Metro</li>
             </ul>
           </div>

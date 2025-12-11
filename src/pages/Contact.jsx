@@ -25,17 +25,18 @@ export default function Contact() {
       <div className="container">
         <div className="section contact-info">
           <h2>Contact Me</h2>
-          <p>Email: <a href="mailto:alexanderrankov@gmail.com">alexanderrankov@gmail.com</a></p>
           <p>Phone: 514-746-9895</p>
           <p>Location: Vaudreuil-Dorion, Québec</p>
           <div className="social-links">
-            <Link to="alexanderrankov@gmail.com" className='logo'><img src={gmailLogo} alt="This is the gmail logo" /></Link>
-            <Link to="https://www.linkedin.com/in/alexander-rankov-19aa77309/" className='logo'><img src={linkedInLogo} alt="This is the LinkedIn logo" /></Link>
-            <Link to="https://github.com/2259198" className='logo'><img src={githubLogo} alt="This is the github logo" /></Link>
-            <Link to="https://alexrkv11.itch.io/" className='logo'><img src={itchLogo} alt="This is the itch.io logo" /></Link>
+            <a href="mailto:alexanderrankov@gmail.com" onClick={(e) => e.stopPropagation()}>
+              <img src={gmailLogo} alt="Email" />
+            </a>
+            <a href="https://www.linkedin.com/in/alexander-rankov-19aa77309/" className='logo' target='_blank'><img src={linkedInLogo} alt="This is the LinkedIn logo" /></a>
+            <a href="https://github.com/2259198" className='logo' target='_blank'><img src={githubLogo} alt="This is the github logo" /></a>
+            <a href="https://alexrkv11.itch.io/" className='logo' target='_blank'><img src={itchLogo} alt="This is the itch.io logo" /></a>
           </div>
           <div className='CV_download'>
-              <a className='btn_download' href={CV_English} download="Rankov_Alexander_CV_EN.pdf">Download CV</a>
+            <a className='btn_download' href={CV_English} download="Rankov_Alexander_CV_EN.pdf">Download CV</a>
           </div>
         </div>
 
