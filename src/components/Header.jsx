@@ -1,6 +1,7 @@
 // === Header.jsx ===
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
+import logo from '../assets/Logo/Rankov_Logo_Blue.svg';
 import './Header.scss';
 
 export default function Header() {
@@ -18,7 +19,7 @@ export default function Header() {
   return (
     <header className="header">
       <div className="logo">
-        <Link to="/">Alexander Rankov</Link>
+        <a href="/"><img src={logo} alt="This is my main logo" /></a>
       </div>
       <nav className={`nav-links ${isOpen && isMobile ? 'open' : ''}`}>
         <Link to="/" onClick={() => setIsOpen(false)}>Home</Link>

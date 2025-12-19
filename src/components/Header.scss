@@ -3,7 +3,7 @@
 
 .header {
   background: #ffffff;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -17,7 +17,15 @@
     font-size: 1.25rem;
     color: $primary-color;
     white-space: nowrap;
+    width: 200px;
   }
+
+  .logo img {
+    height: 60px;
+    width: auto;
+    display: block;
+  }
+
 
   .nav-links {
     display: flex;
@@ -34,6 +42,7 @@
       transition: background 0.2s;
       text-align: center;
       word-wrap: break-word;
+
       &:hover {
         background: #eef3fa;
       }
@@ -48,7 +57,7 @@
       width: 100%;
       background: #ffffff;
       padding: 1rem 0;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     }
   }
 
@@ -85,6 +94,7 @@
     .burger {
       display: none;
     }
+
     .nav-links {
       display: flex !important;
       flex-direction: row;
@@ -93,6 +103,7 @@
       gap: 1rem;
       padding: 0;
       box-shadow: none;
+
       a {
         padding: 0.5rem 0.75rem;
       }
