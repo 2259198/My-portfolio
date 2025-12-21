@@ -2,6 +2,9 @@ import React from "react";
 import { Link } from "react-router-dom";
 import projects from "../data/projects";
 import "./Projects.scss";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { iconMap } from "../data/iconMap";
+
 
 const Projects = () => {
   return (
@@ -14,10 +17,14 @@ const Projects = () => {
               <img src={project.image} alt={project.title} />
               <h2>{project.title}</h2>
               <p>{project.description}</p>
+
               <ul className="tech-list">
-                {project.icon.map((t, i) => (
+                {project.icon.map((iconKey, i) => (
                   <li key={i}>
-                    <img src={t} alt={`${project.title} icon ${i}`} />
+                    <FontAwesomeIcon
+                      icon={iconMap[iconKey]}
+                      style={{ color: "#0077ff", fontSize: "3rem" }}
+                    />
                   </li>
                 ))}
               </ul>
