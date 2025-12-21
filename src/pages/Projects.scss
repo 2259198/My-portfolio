@@ -61,6 +61,7 @@
       margin-bottom: 0.75rem;
       word-wrap: break-word;
       min-height: 3rem;
+      text-align: center;
     }
 
     .tech-list {
@@ -115,6 +116,10 @@
     .project-card img {
       max-width: 260px;
       height: 140px;
+    }
+
+    .project-card p {
+      text-align: left;
     }
   }
 }

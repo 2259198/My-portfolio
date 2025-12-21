@@ -25,35 +25,34 @@ export default function About() {
         </div>
 
         <div className="skills">
-          <h3>Technical Skills</h3>
-          <div className="skill-list">
-            {/* {
-              skills.map((item,index) => 
-              (
-                <span key={index}>{item.skills}</span>
-              )
-            )
-            } */}
-            <span>C#</span><span>C++</span><span>GDscript</span><span>HTML5</span>
-            <span>CSS3</span><span>JavaScript</span><span>SASS</span><span>React</span>
-          </div>
+          <ul className="programming-list">
+            <h3>Technical Skills</h3>
+            <li>C#</li>
+            <li>C++</li>
+            <li>GDscript</li>
+            <li>HTML5</li>
+            <li>CSS3</li>
+            <li>JavaScript</li>
+            <li>SASS</li>
+            <li>React</li>
+          </ul>
 
-          <h3>Tools & Technologies</h3>
-          <div className="skill-list">
+          <ul className="skill-list">
+            <h3>Tools & Technologies</h3>
             {skills.map((item, index) => (
-              <span key={index}>{item.skills}</span>
+              <li key={index}>{item.skills}</li>
             ))}
-          </div>
-
+          </ul>
         </div>
+
 
         <div className='personal-life'>
           <div className="education">
             <img src={educationIcon} alt="This is an education icon" />
             <h3>Education</h3>
             <ul>
-              <li>Bachelor's Degree in Software Engineering <b> <br/> (2025 - Current) </b></li>
-              <li>College Diploma in Multimedia Integration <b> <br/> (2022 - 2025) </b> </li>
+              <li>Bachelor's Degree in Software Engineering <b> <br /> (2025 - Current) </b></li>
+              <li>College Diploma in Multimedia Integration <b> <br /> (2022 - 2025) </b> </li>
             </ul>
           </div>
 
