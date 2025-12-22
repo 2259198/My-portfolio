@@ -44,7 +44,7 @@
       word-wrap: break-word;
 
       &:hover {
-        background: #eef3fa;
+        background: rgba($color: #000000, $alpha: 0.1);
       }
     }
 
@@ -52,12 +52,11 @@
       display: flex;
       flex-direction: column;
       position: absolute;
-      top: 60px;
+      top: 90px;
       left: 0;
       width: 100%;
       background: #ffffff;
       padding: 1rem 0;
-      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
     }
   }
 
@@ -96,7 +95,7 @@
     }
 
     .nav-links {
-      display: flex !important;
+      display: flex;
       flex-direction: row;
       position: static;
       width: auto;
