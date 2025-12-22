@@ -127,36 +127,36 @@
   .skills {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
     background-color: white;
-    border-radius: 10px;
+    border-radius: 1rem;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    overflow: hidden;
+  }
+
+  .skills-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
     padding: 1.5rem;
 
     h3 {
       font-size: 1.5rem;
       margin-bottom: 1rem;
       color: black;
-      text-align: center;
     }
 
     ul {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      list-style-type: none;
-      margin: 0;
+      list-style: none;
       padding: 0;
-      gap: 1rem;
-      width: 100%;
-      max-width: 300px;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 2rem .5rem;
+      max-width: 400px;
 
       li {
-        font-size: 1rem;
+        font-size: 0.95rem;
         color: #555;
-        padding: 0.3rem 0;
-        border-bottom: 1px solid #eee;
       }
     }
   }
@@ -190,6 +190,16 @@
 
     .skills {
       flex-direction: row;
+    }
+
+    .skills-block {
+      flex: 1;
+      padding: 2rem;
+    }
+
+    .skills .invisible-line {
+      width: 2px;
+      background: #eee;
     }
 
   }

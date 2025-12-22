@@ -5,7 +5,8 @@ import skills from "../data/skills";
 import educationIcon from "../assets/Icons/education.svg";
 import workIcon from "../assets/Icons/work.svg";
 import videoGameIcon from "../assets/Icons/video-game.svg";
-import { Bold } from 'lucide-react';
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import { byPrefixAndName } from '@awesome.me/kit-KIT_CODE/icons';
 
 export default function About() {
   return (
@@ -25,24 +26,31 @@ export default function About() {
         </div>
 
         <div className="skills">
-          <ul className="programming-list">
+          <div className="skills-block">
+            {/* <FontAwesomeIcon icon={byPrefixAndName.fas['screwdriver-wrench']} /> */}
             <h3>Technical Skills</h3>
-            <li>C#</li>
-            <li>C++</li>
-            <li>GDscript</li>
-            <li>HTML5</li>
-            <li>CSS3</li>
-            <li>JavaScript</li>
-            <li>SASS</li>
-            <li>React</li>
-          </ul>
+            <ul className="programming-list">
+              <li>C#</li>
+              <li>C++</li>
+              <li>GDscript</li>
+              <li>HTML5</li>
+              <li>CSS3</li>
+              <li>JavaScript</li>
+              <li>SASS</li>
+              <li>React</li>
+            </ul>
+          </div>
 
-          <ul className="skill-list">
+          <div className="invisible-line"></div>
+
+          <div className="skills-block">
             <h3>Tools & Technologies</h3>
-            {skills.map((item, index) => (
-              <li key={index}>{item.skills}</li>
-            ))}
-          </ul>
+            <ul className="skill-list">
+              {skills.map((item, index) => (
+                <li key={index}>{item.skills}</li>
+              ))}
+            </ul>
+          </div>
         </div>
 
 
