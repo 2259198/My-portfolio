@@ -1,25 +1,12 @@
-import achernarImg from "../assets/achernar.png";
-import todoImg from "../assets/to-do-list.png";
-import pixelAdventureImg from "../assets/pixel-adventure.png";
+import achernarImg from "../assets/Projects/Achernar_Logo.png";
+import todoImg from "../assets/Projects/To_Do_List_Icon.jpg";
+import pixelAdventureImg from "../assets/Projects/Pixel_Adventure_Logo.png";
 import goldenDragonImg from "../assets/Golden_Dragon.png";
-import crowImg from "../assets/Crow.png";
-import quizAviationImg from "../assets/aviation.png";
-import hockeyQuebecImg from "../assets/Hockey_Quebec.png";
-import astroDashImg from "../assets/Astro_Dash.png";
+import crowImg from "../assets/Projects/Crow_Icon.jpg";
+import quizAviationImg from "../assets/Projects/Aviation_Quiz_Icon.jpg";
+import hockeyQuebecImg from "../assets/Projects/Hockey_Quebec.avif";
+import astroDashImg from "../assets/Projects/Astro_Dash_Logo.png";
 import airImg from "../assets/air.png";
-
-import adobeAfterEffectsImg from "../assets/Icons/adobe-after-effects.svg";
-import adobePremiereProImg from "../assets/Icons/adobe-premiere-pro.svg";
-import adobeXDImg from "../assets/Icons/adobe-xd.svg";
-import cssImg from "../assets/Icons/css3.svg";
-import githubImg from "../assets/Icons/github.svg";
-import htmlImg from "../assets/Icons/html5.svg";
-import adobeIllustratorImg from "../assets/Icons/illustrator.svg";
-import javascriptImg from "../assets/Icons/javascript.svg";
-import reactImg from "../assets/Icons/react-native.svg";
-import unityImg from "../assets/Icons/unity.svg";
-import visualStudioCodeImg from "../assets/Icons/visual-studio.svg";
-
 
 const projects = [
   {
@@ -86,14 +73,14 @@ const projects = [
     link: "https://alexrkv11.itch.io/astro-dash",
     image: astroDashImg
   },
-  {
-    title: "AIR",
-    description: "A graphic design project created for Earth Day, focusing on raising environmental awareness. Using Illustrator, I designed visuals that highlight the importance of clean air and sustainability, which were later featured on the Cégep Maisonneuve website.",
-    inDepthDescription: "Earth Day Graphic Design Project — Cégep Maisonneuve \n Created a series of visuals for Earth Day using Illustrator, aimed at promoting environmental awareness and sustainability. Designed graphics emphasizing clean air and ecological responsibility, which were featured on the Cégep Maisonneuve website, demonstrating skills in visual communication, concept development, and digital design.",
-    icon: ["illustrator"],
-    link: "https://www.cmaisonneuve.qc.ca/environnement/jour-de-la-terre/#Air",
-    image: airImg
-  }
+  // {
+  //   title: "AIR",
+  //   description: "A graphic design project created for Earth Day, focusing on raising environmental awareness. Using Illustrator, I designed visuals that highlight the importance of clean air and sustainability, which were later featured on the Cégep Maisonneuve website.",
+  //   inDepthDescription: "Earth Day Graphic Design Project — Cégep Maisonneuve \n Created a series of visuals for Earth Day using Illustrator, aimed at promoting environmental awareness and sustainability. Designed graphics emphasizing clean air and ecological responsibility, which were featured on the Cégep Maisonneuve website, demonstrating skills in visual communication, concept development, and digital design.",
+  //   icon: ["illustrator"],
+  //   link: "https://www.cmaisonneuve.qc.ca/environnement/jour-de-la-terre/#Air",
+  //   image: airImg
+  // }
 ]
 
 export default projects

@@ -46,7 +46,7 @@
       width: 100%;
       max-width: 250px;
       border-radius: 15px;
-      object-fit: cover;
+      object-fit: contain;
       padding: 0.1rem;
     }
 
@@ -115,7 +115,7 @@
 
     .project-card img {
       max-width: 260px;
-      height: 140px;
+      height: 170px;
     }
 
     .project-card p {
