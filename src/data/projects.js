@@ -9,6 +9,23 @@ import astroDashImg from "../assets/Projects/Astro_Dash_Logo.png";
 import airImg from "../assets/air.png";
 
 const projects = [
+
+  // {
+  //   title: "Calculator App",
+  //   description: "A calculator App made in Java",
+  //   inDepthDescription: "Done in a later stage",
+  //   icon: ["java", "github"],
+  //   link: "https://alexrkv11.itch.io/projet-achernar",
+  //   image: achernarImg,
+  // },
+  // {
+  //   title: "Bank of Rankov",
+  //   description: "A Java bank app made after learning the basics of Java",
+  //   inDepthDescription: "Done in a later stage",
+  //   icon: ["java", "github"],
+  //   link: "",
+  //   image: achernarImg,
+  // },
   {
     title: "Achernar",
     description: "A 3D adventure game created in Unity as a team of four over four months. The project involved designing characters, environments, and gameplay mechanics, while also learning to collaborate effectively with version control tools like GitHub. My contributions included programming, asset integration, and project management.",

@@ -45,14 +45,14 @@
     img {
       width: 100%;
       max-width: 250px;
-      border-radius: 15px;
+      border-radius: 25px;
       object-fit: contain;
-      padding: 0.1rem;
+      padding: 0.3rem;
     }
 
     h2 {
       color: $primary-color;
-      margin-bottom: 0.5rem;
+      margin-bottom: 0.2rem;
       min-height: 2.5rem;
     }
 
@@ -68,10 +68,10 @@
       list-style: none;
       display: flex;
       flex-wrap: wrap;
-      gap: 0.7rem;
+      gap: 0.4rem;
       justify-content: center;
       padding: 0;
-      margin-bottom: 1rem;
+      margin-bottom: 1.5rem;
 
       li {
         padding: 1rem;
