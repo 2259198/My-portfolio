@@ -18,7 +18,7 @@ const ProjectDetails = () => {
                 <Link to="/projects" className="back-btn"> ← </Link>
 
                 <h1>{project.title}</h1>
-                <img src={project.image} alt={project.title} />
+                <img src={project.projectDetailImage} alt={project.title} />
                 <p>{project.inDepthDescription}</p>
                 <ul className="list">
                     {project.icon.map((iconKey, i) => (

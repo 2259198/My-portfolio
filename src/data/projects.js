@@ -1,12 +1,19 @@
 import achernarImg from "../assets/Projects/Achernar_Logo.png";
 import todoImg from "../assets/Projects/To_Do_List_Icon.jpg";
 import pixelAdventureImg from "../assets/Projects/Pixel_Adventure_Logo.png";
-import goldenDragonImg from "../assets/Golden_Dragon.png";
+import goldenDragonImg from "../assets/Projects/Golden_Dragon.png";
 import crowImg from "../assets/Projects/Crow_Icon.jpg";
 import quizAviationImg from "../assets/Projects/Aviation_Quiz_Icon.jpg";
 import hockeyQuebecImg from "../assets/Projects/Hockey_Quebec.avif";
 import astroDashImg from "../assets/Projects/Astro_Dash_Logo.png";
-import airImg from "../assets/air.png";
+
+import achernarImgDetail from "../assets/ProjectsPhotos/achernar.png";
+import astroDashImgDetail from "../assets/ProjectsPhotos/Astro_Dash.png";
+import aviationImgDetail from "../assets/ProjectsPhotos/aviation.png";
+import crowImgDetail from "../assets/ProjectsPhotos/Crow.png";
+import hockeyQuebecImgDetail from "../assets/ProjectsPhotos/Hockey_Quebec.png";
+import pixelAdventureImgDetail from "../assets/ProjectsPhotos/pixel-adventure.png";
+import toDoListImgDetail from "../assets/ProjectsPhotos/to-do-list.png";
 
 const projects = [
 
@@ -33,6 +40,7 @@ const projects = [
     icon: ["unity", "github"],
     link: "https://alexrkv11.itch.io/projet-achernar",
     image: achernarImg,
+    projectDetailImage: achernarImgDetail
   },
   {
     title: "To-do list",
@@ -41,6 +49,7 @@ const projects = [
     icon: ["react"],
     link: "https://2259198.github.io/Website-To-Do/",
     image: todoImg,
+    projectDetailImage: toDoListImgDetail
   },
   {
     title: "Quiz Aviation",
@@ -49,6 +58,7 @@ const projects = [
     icon: ["html", "css", "js"],
     link: "https://2259198.github.io/Quiz-Aviation/",
     image: quizAviationImg,
+    projectDetailImage: aviationImgDetail
   },
   {
     title: "Pixel Adventure",
@@ -57,6 +67,7 @@ const projects = [
     icon: ["unity"],
     link: "https://alexrkv11.itch.io/pixel-adventure",
     image: pixelAdventureImg,
+    projectDetailImage: pixelAdventureImgDetail
   },
   {
     title: "Hockey Québec",
@@ -64,7 +75,8 @@ const projects = [
     inDepthDescription: "Promotional and Informational Videos — Internship at Hockey Québec \n Produced a series of promotional and informational videos during my internship, using After Effects and Illustrator to create animations, edit footage, and design visual elements. Ensured all content adhered to Hockey Québec’s branding guidelines, enhancing the organization’s digital presence and communication materials.",
     icon: ["video"],
     link: "https://www.youtube.com/playlist?list=PLVJ9ECOMr_AOgGoC_Jxvu4xcV_a0DsJQS",
-    image: hockeyQuebecImg
+    image: hockeyQuebecImg,
+    projectDetailImage: hockeyQuebecImgDetail
   },
   {
     title: "Redesign 'Crow'",
@@ -73,6 +85,7 @@ const projects = [
     icon: ["html", "css", "js"],
     link: "https://2259198.github.io/Refonte-Centre-Entrainement-Crow/",
     image: crowImg,
+    projectDetailImage: crowImgDetail
   },
   {
     title: "Golden Dragon",
@@ -81,6 +94,7 @@ const projects = [
     icon: ["video"],
     link: "https://www.youtube.com/watch?v=PUPltwrqhIw",
     image: goldenDragonImg,
+    projectDetailImage: goldenDragonImg
   },
   {
     title: "Astro Dash",
@@ -88,16 +102,9 @@ const projects = [
     inDepthDescription: "Astro Dash — Personal 3D Arcade Game (Unity) \n Developed a 3D arcade game entirely independently in Unity, managing all aspects of development from concept and asset creation to coding gameplay mechanics. Designed engaging and replayable experiences, demonstrating skills in game design, programming, 3D asset integration, and full project ownership.",
     icon: ["unity"],
     link: "https://alexrkv11.itch.io/astro-dash",
-    image: astroDashImg
+    image: astroDashImg,
+    projectDetailImage: astroDashImgDetail
   },
-  // {
-  //   title: "AIR",
-  //   description: "A graphic design project created for Earth Day, focusing on raising environmental awareness. Using Illustrator, I designed visuals that highlight the importance of clean air and sustainability, which were later featured on the Cégep Maisonneuve website.",
-  //   inDepthDescription: "Earth Day Graphic Design Project — Cégep Maisonneuve \n Created a series of visuals for Earth Day using Illustrator, aimed at promoting environmental awareness and sustainability. Designed graphics emphasizing clean air and ecological responsibility, which were featured on the Cégep Maisonneuve website, demonstrating skills in visual communication, concept development, and digital design.",
-  //   icon: ["illustrator"],
-  //   link: "https://www.cmaisonneuve.qc.ca/environnement/jour-de-la-terre/#Air",
-  //   image: airImg
-  // }
 ]
 
 export default projects
