@@ -3,7 +3,7 @@
 
 .home {
   padding: 2rem 1rem;
-  background: #f5f7fa;
+  background: $white-color;
 
   .container {
     width: 100%;
@@ -18,9 +18,9 @@
 
   .hero-rectangle {
     width: 100%;
-    background: #ffffff;
+    background: $white-color;
     border-radius: 15px;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
     padding: 2rem;
     box-sizing: border-box;
 
@@ -35,7 +35,9 @@
       .text {
         width: 100%;
         max-width: 100%;
-        p, h1 {
+
+        p,
+        h1 {
           margin: 1.5rem 0;
           word-wrap: break-word;
         }
@@ -50,11 +52,12 @@
           a {
             padding: 0.75rem 1.5rem;
             background: $primary-color;
-            color: white;
+            color: $white-color;
             border-radius: 10px;
             text-decoration: none;
             transition: background 0.2s;
             text-align: center;
+
             &:hover {
               background: $primary-color-hover;
             }
@@ -92,10 +95,10 @@
       gap: 1rem;
 
       .project {
-        background: #ffffff;
+        background: $white-color;
         padding: 1rem;
         border-radius: 15px;
-        box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
         text-align: center;
         transition: transform 0.2s;
       }
@@ -103,30 +106,30 @@
   }
 
   .projects-button {
-  margin-top: 2rem;
-  display: flex;
-  justify-content: center;
-}
+    margin-top: 2rem;
+    display: flex;
+    justify-content: center;
+  }
 
-.projects-button a {
-  padding: 0.9rem 2rem;
-  background: $primary-color;
-  color: #fff;
-  font-size: 1.05rem;
-  border-radius: 50px;
-  text-decoration: none;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-  transition: all 0.3s ease;
-}
+  .projects-button a {
+    padding: 0.9rem 2rem;
+    background: $primary-color;
+    color: $white-color;
+    font-size: 1.05rem;
+    border-radius: 50px;
+    text-decoration: none;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+  }
 
-.projects-button a:hover {
-  transform: translateY(-3px) scale(1.03);
-}
+  .projects-button a:hover {
+    transform: translateY(-3px) scale(1.03);
+  }
 
   @media (min-width: 768px) {
 
-    .home .hero-rectangle{
-      gap:4rem;
+    .home .hero-rectangle {
+      gap: 4rem;
     }
 
     .container {
@@ -143,7 +146,7 @@
       .text {
         flex: 2.7;
 
-        .buttons{
+        .buttons {
           justify-content: flex-start;
         }
       }

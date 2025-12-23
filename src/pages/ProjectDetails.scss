@@ -3,14 +3,14 @@
 .project-details {
     padding: 1.7rem;
     white-space: pre-line;
-    background: #ffffff;
+    background: $white-color;
     min-height: 100vh;
     padding: 1.5rem;
 
     .container-projects {
         max-width: 680px;
         margin: 0 auto;
-        background: white;
+        background: $white-color;
         border-radius: 20px;
         padding: 1.5rem;
         box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);

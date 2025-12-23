@@ -7,26 +7,29 @@
   flex-direction: column;
   align-items: center;
   gap: 2rem;
-  background: #f5f7fa;
+  background: $white-color;
 
   .container {
-    width: 100%;
-    max-width: 1000px;
     display: flex;
     flex-direction: column;
+
+    width: 100%;
+    max-width: 1000px;
     gap: 2rem;
   }
 
   .section {
-    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background: $white-color;
     padding: 2rem;
     border-radius: 15px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
     width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     gap: 1.5rem;
+
     transition: transform 0.2s;
   }
 
@@ -52,14 +55,14 @@
     }
 
     .location {
-      color: #555;
+      color: $black-color;
       margin-bottom: 1rem;
       font-weight: 500;
     }
 
     .bio {
       max-width: 700px;
-      color: #555;
+      color: $black-color;
       font-size: 1rem;
       line-height: 1.6;
       margin: 0 auto;
@@ -69,9 +72,9 @@
   .personal-life {
     display: flex;
     flex-direction: column;
-    background-color: white;
+    background-color: $white-color;
     border-radius: 1rem;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
     overflow: hidden;
   }
 
@@ -105,7 +108,7 @@
     h3 {
       font-size: 1.5rem;
       margin-bottom: 1rem;
-      color: black;
+      color: $black-color;
     }
 
     ul {
@@ -115,7 +118,7 @@
 
       li {
         margin-bottom: 0.75rem;
-        color: #000000;
+        color: $black-color;
         font-size: 0.95rem;
         line-height: 1.5;
       }
@@ -124,7 +127,7 @@
 
     p {
       max-width: 600px;
-      color: #000000;
+      color: $black-color;
       font-size: 1rem;
       line-height: 1.6;
     }
@@ -134,9 +137,10 @@
     display: flex;
     flex-direction: column;
     background-color: white;
-    border-radius: 1rem;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
     overflow: hidden;
+
+    border-radius: 1rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
   }
 
   .skills-block {
@@ -149,7 +153,7 @@
     h3 {
       font-size: 1.5rem;
       margin-bottom: 1rem;
-      color: black;
+      color: $black-color;
     }
 
     ul {
@@ -162,7 +166,7 @@
 
       li {
         font-size: 0.95rem;
-        color: #555;
+        color: $black-color;
       }
     }
   }
