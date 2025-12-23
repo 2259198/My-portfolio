@@ -6,7 +6,8 @@ import educationIcon from "../assets/Icons/education.svg";
 import workIcon from "../assets/Icons/work.svg";
 import videoGameIcon from "../assets/Icons/video-game.svg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-// import { byPrefixAndName } from '@awesome.me/kit-KIT_CODE/icons';
+import { faScrewdriverWrench, faCode, faC } from "@fortawesome/free-solid-svg-icons";
+
 
 export default function About() {
   return (
@@ -27,8 +28,8 @@ export default function About() {
 
         <div className="skills">
           <div className="skills-block">
-            {/* <FontAwesomeIcon icon={byPrefixAndName.fas['screwdriver-wrench']} /> */}
-            <h3>Technical Skills</h3>
+            <FontAwesomeIcon icon={faCode} color='#0077ff' className='icon' />
+            <h3> Programming </h3>
             <ul className="programming-list">
               <li>C#</li>
               <li>C++</li>
@@ -44,7 +45,8 @@ export default function About() {
           <div className="invisible-line"></div>
 
           <div className="skills-block">
-            <h3>Tools & Technologies</h3>
+            <FontAwesomeIcon icon={faScrewdriverWrench} color='#0077ff' className='icon' />
+            <h3> Softwares </h3>
             <ul className="skill-list">
               {skills.map((item, index) => (
                 <li key={index}>{item.skills}</li>

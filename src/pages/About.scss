@@ -76,9 +76,15 @@
   }
 
   .invisible-line {
-    background: black;
+    background: #eee;
     width: 100%;
     height: 1px;
+  }
+
+  .icon {
+    width: 80px;
+    height: 80px;
+    padding: 1rem;
   }
 
   .education,
@@ -195,11 +201,6 @@
     .skills-block {
       flex: 1;
       padding: 2rem;
-    }
-
-    .skills .invisible-line {
-      width: 2px;
-      background: #eee;
     }
 
   }
