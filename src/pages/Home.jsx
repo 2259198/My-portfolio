@@ -2,7 +2,9 @@ import React from 'react';
 import { useNavigate } from 'react-router-dom';
 import { Link } from 'react-router-dom';
 import meImage from '../assets/me.webp';
+import sneakPeak from '../data/sneakPeekProjects';
 import './Home.scss';
+import projects from '../data/projects';
 
 export default function Home() {
   const navigate = useNavigate();
@@ -31,48 +33,20 @@ export default function Home() {
         <div className="showcase" id="projects">
           <h2>Sneak peek of my projects</h2>
           <div className="projects">
-            <div className="project">
-              <h3>Achernar</h3>
-              <p>3D Game</p>
-              <p>Unity</p>
-              <p>Adventure</p>
-              <p>Collaboration</p>
-            </div>
-            <div className="project">
-              <h3>To-do List</h3>
-              <p>React</p>
-              <p>Web App</p>
-              <p>Management</p>
-              <p>Design</p>
-            </div>
-            <div className="project">
-              <h3>HQ</h3>
-              <p>Internship</p>
-              <p>Video Editing</p>
-              <p>After Effects</p>
-              <p>Branding</p>
-            </div>
-            <div className="project">
-              <h3>Quiz</h3>
-              <p>JavaScript</p>
-              <p>HTML5</p>
-              <p>CSS3</p>
-              <p>Interactive Quiz</p>
-            </div>
-            <div className="project">
-              <h3>Astro Dash</h3>
-              <p>Unity 3D</p>
-              <p>Solo Project</p>
-              <p>Arcade</p>
-              <p>Design</p>
-            </div>
-            <div className="project">
-              <h3>Pixel</h3>
-              <p>Unity 2D</p>
-              <p>Pixel Art</p>
-              <p>Asset Creation</p>
-              <p>Retro Style</p>
-            </div>
+
+            {
+              sneakPeak.map((sneak) => (
+
+                <div className="project">
+                  <h3>{sneak.name}</h3>
+                  <p>{sneak.type}</p>
+                  <p>{sneak.software}</p>
+                  <p>{sneak.software2}</p>
+                  <p>{sneak.team}</p>
+                </div>
+
+              ))
+            }
           </div>
           <div className="projects-button">
             <Link to="/projects">View all of my projects</Link>

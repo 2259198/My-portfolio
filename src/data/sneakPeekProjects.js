@@ -16,7 +16,7 @@ const sneakPeak = [
     },
     {
         name : "Hockey Québec",
-        type : "Internsghip",
+        type : "Internship",
         software : "Adobe After Effects",
         software2 : "Adobe Premiere Pro",
         team: "Alone"
@@ -43,6 +43,6 @@ const sneakPeak = [
         team: "Personal Project"
     }
 
-]
+].sort((a, b) => a.name.localeCompare(b.name))
 
 export default sneakPeak;
