@@ -2,6 +2,7 @@ import React from 'react';
 import './About.scss';
 import meImage from '../assets/me.webp';
 import skills from "../data/skills";
+import programming from '../data/programming';
 import educationIcon from "../assets/Icons/education.svg";
 import workIcon from "../assets/Icons/work.svg";
 import videoGameIcon from "../assets/Icons/video-game.svg";
@@ -31,14 +32,11 @@ export default function About() {
             <FontAwesomeIcon icon={faCode} color='#0077ff' className='icon' />
             <h3> Programming </h3>
             <ul className="programming-list">
-              <li>C#</li>
-              <li>C++</li>
-              <li>GDscript</li>
-              <li>HTML5</li>
-              <li>CSS3</li>
-              <li>JavaScript</li>
-              <li>SASS</li>
-              <li>React</li>
+              {
+                programming.map((item, index) => (
+                  <li key={index}>{item.programming}</li>
+                ))
+              }
             </ul>
           </div>
 

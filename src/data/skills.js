@@ -59,6 +59,6 @@ const skills = [
     {
         skills: "Wordpress"
     }
-]
+].sort((a,b) => a.skills.localeCompare(b.skills));
 
 export default skills;
