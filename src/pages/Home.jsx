@@ -39,10 +39,9 @@ export default function Home() {
 
                 <div className="project">
                   <h3>{sneak.name}</h3>
-                  <p>{sneak.type}</p>
-                  <p>{sneak.software}</p>
-                  <p>{sneak.software2}</p>
-                  <p>{sneak.team}</p>
+                  <p> <strong>Type of project :</strong>  {sneak.type}</p>
+                  <p> <strong>Software Used : </strong>  {sneak.software}</p>
+                  <p> <strong>Collaboration :</strong>  {sneak.team}</p>
                 </div>
 
               ))

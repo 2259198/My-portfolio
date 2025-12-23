@@ -104,6 +104,11 @@
         text-align: center;
         transition: transform 0.2s;
       }
+
+      p {
+        text-align: left;
+        padding: 1rem 0 1rem 1.3rem;
+      }
     }
   }
 
@@ -163,9 +168,14 @@
       justify-content: space-between;
     }
 
-    .project {
-      width: 420px;
-      max-width: 50%;
+    .showcase {
+      .projects {
+        .project {
+          p {
+            padding: 1rem 0 1rem 2.5rem;
+          }
+        }
+      }
     }
   }
 }
