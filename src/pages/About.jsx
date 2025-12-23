@@ -73,6 +73,10 @@ export default function About() {
               <li>Internship <b> (March 2025 - May 2025) </b> : Video Intern Editor at Hockey Québec</li>
               <li>July 2024 - Current : Bagger at Metro</li>
             </ul>
+            <ul>
+              <li>Web development : 4 years</li>
+              <li>Game development : 4 years</li>
+            </ul>
           </div>
 
           <div className="invisible-line"></div>
