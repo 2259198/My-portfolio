@@ -37,6 +37,7 @@ const projects = [
     title: "Achernar",
     description: "A 3D adventure game created in Unity as a team of four over four months. The project involved designing characters, environments, and gameplay mechanics, while also learning to collaborate effectively with version control tools like GitHub. My contributions included programming, asset integration, and project management.",
     inDepthDescription: "3D Adventure Game (Unity) — Team Project (4 months) \n We developed a fully 3D adventure game in Unity as part of a four-person team composed of me (programming & asset integration), Guillaume Ducharme-Vanier (level design), Maëlle Léger (3D art), and Olivier Poulin (project lead & sound design). \n The project involved creating the game’s world, characters, mechanics, and overall player experience from the ground up. My responsibilities included programming core gameplay systems in C#, integrating 3D models, textures, animations, and audio into Unity, and helping coordinate development tasks through GitHub and Trello. I also contributed to technical problem-solving, iterative prototyping, and ensuring smooth collaboration through version control and structured workflows.",
+    finishedDate: "27 May 2024",
     icon: ["unity", "github"],
     link: "https://alexrkv11.itch.io/projet-achernar",
     image: achernarImg,
