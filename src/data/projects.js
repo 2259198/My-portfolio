@@ -15,12 +15,19 @@ import achernarImg5 from "../assets/ProjectsPhotosExtra/Achernar/Achernar_Level_
 import achernarImg6 from "../assets/ProjectsPhotosExtra/Achernar/Achernar_Main_Menu.png";
 import achernarImg7 from "../assets/ProjectsPhotosExtra/Achernar/Achernar_Tutorial.png";
 
+import todoListImg from "../assets/ProjectsPhotosExtra/To_Do_List/to_do_list.png";
 
-import astroDashImgDetail from "../assets/ProjectsPhotos/Astro_Dash.png";
+import pixelAdventureImg1 from "../assets/ProjectsPhotosExtra/PixelAdventure/First_Level.png";
+import pixelAdventureImg2 from "../assets/ProjectsPhotosExtra/PixelAdventure/Fourth_Level.png";
+import pixelAdventureImg3 from "../assets/ProjectsPhotosExtra/PixelAdventure/Third_Level.png";
+import pixelAdventureImg4 from "../assets/ProjectsPhotosExtra/PixelAdventure/Shop.png";
+
+import astroDashImg1 from "../assets/ProjectsPhotosExtra/AstroDash/Instructions.png";
+import astroDashImg2 from "../assets/ProjectsPhotosExtra/AstroDash/Ship.png";
+
 import aviationImgDetail from "../assets/ProjectsPhotos/aviation.png";
 import crowImgDetail from "../assets/ProjectsPhotos/Crow.png";
 import hockeyQuebecImgDetail from "../assets/ProjectsPhotos/Hockey_Quebec.png";
-import pixelAdventureImgDetail from "../assets/ProjectsPhotos/pixel-adventure.png";
 import toDoListImgDetail from "../assets/ProjectsPhotos/to-do-list.png";
 
 const projects = [
@@ -69,7 +76,10 @@ const projects = [
     icon: ["react"],
     link: "https://2259198.github.io/Website-To-Do/",
     image: todoImg,
-    projectDetailImage: toDoListImgDetail
+    projectDetailImage: [
+      toDoListImgDetail,
+      todoListImg
+    ]
   },
   {
     title: "Quiz Aviation",
@@ -78,7 +88,9 @@ const projects = [
     icon: ["html", "css", "js"],
     link: "https://2259198.github.io/Quiz-Aviation/",
     image: quizAviationImg,
-    projectDetailImage: aviationImgDetail
+    projectDetailImage: [
+      aviationImgDetail
+    ]
   },
   {
     title: "Pixel Adventure",
@@ -87,7 +99,12 @@ const projects = [
     icon: ["unity"],
     link: "https://alexrkv11.itch.io/pixel-adventure",
     image: pixelAdventureImg,
-    projectDetailImage: pixelAdventureImgDetail
+    projectDetailImage: [
+      pixelAdventureImg1,
+      pixelAdventureImg2,
+      pixelAdventureImg3,
+      pixelAdventureImg4,
+    ]
   },
   {
     title: "Hockey Québec",
@@ -96,7 +113,9 @@ const projects = [
     icon: ["video"],
     link: "https://www.youtube.com/playlist?list=PLVJ9ECOMr_AOgGoC_Jxvu4xcV_a0DsJQS",
     image: hockeyQuebecImg,
-    projectDetailImage: hockeyQuebecImgDetail
+    projectDetailImage: [
+      hockeyQuebecImgDetail
+    ]
   },
   {
     title: "Redesign 'Crow'",
@@ -105,7 +124,9 @@ const projects = [
     icon: ["html", "css", "js"],
     link: "https://2259198.github.io/Refonte-Centre-Entrainement-Crow/",
     image: crowImg,
-    projectDetailImage: crowImgDetail
+    projectDetailImage: [
+      crowImgDetail
+    ]
   },
   {
     title: "Golden Dragon",
@@ -114,7 +135,9 @@ const projects = [
     icon: ["video"],
     link: "https://www.youtube.com/watch?v=PUPltwrqhIw",
     image: goldenDragonImg,
-    projectDetailImage: goldenDragonImg
+    projectDetailImage: [
+      goldenDragonImg
+    ]
   },
   {
     title: "Astro Dash",
@@ -123,8 +146,11 @@ const projects = [
     icon: ["unity"],
     link: "https://alexrkv11.itch.io/astro-dash",
     image: astroDashImg,
-    projectDetailImage: astroDashImgDetail
+    projectDetailImage: [
+      astroDashImg1,
+      astroDashImg2
+    ]
   },
-]
+].sort((a,b) => a.title.localeCompare(b.title))
 
 export default projects
