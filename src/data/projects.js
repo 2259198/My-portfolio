@@ -8,6 +8,14 @@ import hockeyQuebecImg from "../assets/Projects/Hockey_Quebec.avif";
 import astroDashImg from "../assets/Projects/Astro_Dash_Logo.png";
 
 import achernarImgDetail from "../assets/ProjectsPhotos/achernar.png";
+import achernarImg2 from "../assets/ProjectsPhotosExtra/Achernar/Achernar_Laboratory.png";
+import achernarImg3 from "../assets/ProjectsPhotosExtra/Achernar/Achernar_Letter.png";
+import achernarImg4 from "../assets/ProjectsPhotosExtra/Achernar/Achernar_Level_1.png";
+import achernarImg5 from "../assets/ProjectsPhotosExtra/Achernar/Achernar_Level_3.png";
+import achernarImg6 from "../assets/ProjectsPhotosExtra/Achernar/Achernar_Main_Menu.png";
+import achernarImg7 from "../assets/ProjectsPhotosExtra/Achernar/Achernar_Tutorial.png";
+
+
 import astroDashImgDetail from "../assets/ProjectsPhotos/Astro_Dash.png";
 import aviationImgDetail from "../assets/ProjectsPhotos/aviation.png";
 import crowImgDetail from "../assets/ProjectsPhotos/Crow.png";
@@ -41,7 +49,18 @@ const projects = [
     icon: ["unity", "github"],
     link: "https://alexrkv11.itch.io/projet-achernar",
     image: achernarImg,
-    projectDetailImage: achernarImgDetail
+    projectDetailImage: [
+
+      achernarImgDetail,
+      achernarImg,
+      achernarImg2,
+      achernarImg3,
+      achernarImg4,
+      achernarImg5,
+      achernarImg6,
+      achernarImg7,
+
+    ]
   },
   {
     title: "To-do list",

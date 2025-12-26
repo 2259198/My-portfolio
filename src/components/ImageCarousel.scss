@@ -1,0 +1,65 @@
+.carousel {
+  position: relative;
+  max-width: 700px;
+  margin: 0 auto;
+
+  img {
+    width: 100%;
+    object-fit: contain;
+  }
+
+  .arrow {
+    position: absolute;
+    top: 45%;
+    transform: translateY(-50%);
+    background: rgba($color: #ffffff, $alpha: .4);
+    color: #0077ff;
+    border: none;
+    font-size: 1rem;
+    padding: 0.4rem 0.8rem;
+    cursor: pointer;
+    border-radius: 50%;
+    transition: background 0.2s ease;
+
+    &:hover {
+
+    }
+  }
+
+  .left {
+    left: 10px;
+  }
+
+  .right {
+    right: 10px;
+  }
+
+  .dots {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+
+    .dot {
+      width: 10px;
+      height: 10px;
+      background: #ccc;
+      border-radius: 50%;
+      cursor: pointer;
+
+      &.active {
+        background: #0077ff;
+      }
+    }
+  }
+}
+
+
+@media (min-width:768px)
+{
+    .carousel{
+        .arrow{
+            font-size: 1.5rem;
+        }
+    }
+}

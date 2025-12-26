@@ -4,6 +4,7 @@ import projects from "../data/projects";
 import "./ProjectDetails.scss";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { iconMap } from "../data/iconMap";
+import ImageCarousel from "../components/ImageCarousel";
 
 const ProjectDetails = () => {
     const { projectId } = useParams();
@@ -18,7 +19,7 @@ const ProjectDetails = () => {
                 <Link to="/projects" className="back-btn"> ← </Link>
 
                 <h1>{project.title}</h1>
-                <img src={project.projectDetailImage} alt={project.title} />
+                <ImageCarousel images={project.projectDetailImage} />
                 <p>{project.inDepthDescription}</p>
                 <ul className="list">
                     {project.icon.map((iconKey, i) => (
