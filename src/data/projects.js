@@ -15,15 +15,19 @@ import achernarImg5 from "../assets/ProjectsPhotosExtra/Achernar/Achernar_Level_
 import achernarImg6 from "../assets/ProjectsPhotosExtra/Achernar/Achernar_Main_Menu.png";
 import achernarImg7 from "../assets/ProjectsPhotosExtra/Achernar/Achernar_Tutorial.png";
 
+import astroDashImg1 from "../assets/ProjectsPhotosExtra/AstroDash/Instructions.png";
+import astroDashImg2 from "../assets/ProjectsPhotosExtra/AstroDash/Ship.png";
+
+import aviationImg1 from "../assets/ProjectsPhotosExtra/Aviation/Aviation_Quiz_1.png";
+import aviationImg2 from "../assets/ProjectsPhotosExtra/Aviation/Aviation_Quiz_2.png";
+import aviationImg3 from "../assets/ProjectsPhotosExtra/Aviation/Aviation_Quiz_3.png";
+
 import todoListImg from "../assets/ProjectsPhotosExtra/To_Do_List/to_do_list.png";
 
 import pixelAdventureImg1 from "../assets/ProjectsPhotosExtra/PixelAdventure/First_Level.png";
 import pixelAdventureImg2 from "../assets/ProjectsPhotosExtra/PixelAdventure/Fourth_Level.png";
 import pixelAdventureImg3 from "../assets/ProjectsPhotosExtra/PixelAdventure/Third_Level.png";
 import pixelAdventureImg4 from "../assets/ProjectsPhotosExtra/PixelAdventure/Shop.png";
-
-import astroDashImg1 from "../assets/ProjectsPhotosExtra/AstroDash/Instructions.png";
-import astroDashImg2 from "../assets/ProjectsPhotosExtra/AstroDash/Ship.png";
 
 import aviationImgDetail from "../assets/ProjectsPhotos/aviation.png";
 import crowImgDetail from "../assets/ProjectsPhotos/Crow.png";
@@ -136,7 +140,9 @@ const projects = [
     link: "https://2259198.github.io/Quiz-Aviation/",
     image: quizAviationImg,
     projectDetailImage: [
-      aviationImgDetail
+      aviationImg1,
+      aviationImg2,
+      aviationImg3
     ]
   },
   {
