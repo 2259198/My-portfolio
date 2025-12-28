@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './Contact.scss';
-import CV_English from "../assets/Rankov_Alexander_CV_EN.pdf";
+import CV_English from "../assets/CV/Alexander_Rankov_CV_EN.pdf";
 import gmailLogo from "../assets/Icons/gmail.svg";
 import linkedInLogo from "../assets/Icons/linkedin_blue.svg";
 import githubLogo from "../assets/Icons/github_blue.svg";

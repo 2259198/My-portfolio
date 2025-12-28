@@ -59,8 +59,8 @@ export default function About() {
             <img src={educationIcon} alt="This is an education icon" />
             <h3>Education</h3>
             <ul>
-              <li>Bachelor's Degree in Software Engineering <b> <br /> (2025 - Current) </b></li>
-              <li>College Diploma in Multimedia Integration <b> <br /> (2022 - 2025) </b> </li>
+              <li> <b> 2025 - Current : </b> <br /> Bachelor's Degree in Software Engineering </li>
+              <li> <b> 2022 - 2025 : </b> <br /> College Diploma in Multimedia Integration  </li>
             </ul>
           </div>
 
@@ -70,13 +70,13 @@ export default function About() {
             <img src={workIcon} alt="This is a work icon" />
             <h3>Experience</h3>
             <ul>
-              <li>Internship <b> (March 2025 - May 2025) </b> : Video Intern Editor at Hockey Québec</li>
-              <li>July 2024 - Current : Bagger at Metro</li>
+              <li> <b> March 2025 - May 2025 : </b> <br /> Internship : Video Editor at Hockey Québec </li>
+              <li> <b> July 2024 - Current : </b> <br /> Bagger at Metro</li>
             </ul>
-            <ul>
+            {/* <ul>
               <li>Web development : 4 years</li>
               <li>Game development : 4 years</li>
-            </ul>
+            </ul> */}
           </div>
 
           <div className="invisible-line"></div>
