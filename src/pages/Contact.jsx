@@ -6,6 +6,7 @@ import gmailLogo from "../assets/Icons/gmail.svg";
 import linkedInLogo from "../assets/Icons/linkedin_blue.svg";
 import githubLogo from "../assets/Icons/github_blue.svg";
 import itchLogo from "../assets/Icons/itch_io_blue.svg";
+import emailjs from 'emailjs-com';
 
 export default function Contact() {
   const [formData, setFormData] = useState({ name: '', email: '', message: '' });
@@ -16,10 +17,26 @@ export default function Contact() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    alert('Form submission is currently a placeholder.');
-    setFormData({ name: '', email: '', message: '' });
-  };
 
+    emailjs.send(
+      "service_a2qqhdq",
+      "template_kj4nmlm",
+      {
+        name: formData.name,
+        email: formData.email,
+        message: formData.message,
+      },
+      "_KZ0EmzUO11dMr56o"
+    )
+      .then(() => {
+        alert("Message sent successfully!");
+        setFormData({ name: '', email: '', message: '' });
+      })
+      .catch((error) => {
+        console.error(error);
+        alert("Failed to send message.");
+      });
+  };
   return (
     <section className="contact" id="contact">
       <div className="container">
