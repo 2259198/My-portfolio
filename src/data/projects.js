@@ -22,6 +22,18 @@ import aviationImg1 from "../assets/ProjectsPhotosExtra/Aviation/Aviation_Quiz_1
 import aviationImg2 from "../assets/ProjectsPhotosExtra/Aviation/Aviation_Quiz_2.png";
 import aviationImg3 from "../assets/ProjectsPhotosExtra/Aviation/Aviation_Quiz_3.png";
 
+import crowImg1 from "../assets/ProjectsPhotosExtra/Crow/Crow_1.jpg";
+import crowImg2 from "../assets/ProjectsPhotosExtra/Crow/Crow_2.jpg";
+
+import goldenDragonImg1 from "../assets/ProjectsPhotosExtra/Golden Dragon/Golden_Dragon_1.png";
+import goldenDragonImg2 from "../assets/ProjectsPhotosExtra/Golden Dragon/Golden_Dragon_2.png";
+import goldenDragonImg3 from "../assets/ProjectsPhotosExtra/Golden Dragon/Golden_Dragon_3.png";
+import goldenDragonImg4 from "../assets/ProjectsPhotosExtra/Golden Dragon/Golden_Dragon_4.png";
+
+import hockeyQuebecImg2 from "../assets/ProjectsPhotosExtra/HockeyQuebec/Hockey_Quebec_2.png";
+import hockeyQuebecImg3 from "../assets/ProjectsPhotosExtra/HockeyQuebec/Hockey_Quebec_3.png";
+import hockeyQuebecImg4 from "../assets/ProjectsPhotosExtra/HockeyQuebec/Hockey_Quebec_4.png";
+
 import todoListImg from "../assets/ProjectsPhotosExtra/To_Do_List/to_do_list.png";
 
 import pixelAdventureImg1 from "../assets/ProjectsPhotosExtra/PixelAdventure/First_Level.png";
@@ -169,7 +181,9 @@ const projects = [
     link: "https://www.youtube.com/playlist?list=PLVJ9ECOMr_AOgGoC_Jxvu4xcV_a0DsJQS",
     image: hockeyQuebecImg,
     projectDetailImage: [
-      hockeyQuebecImgDetail
+      hockeyQuebecImg2,
+      hockeyQuebecImg3,
+      hockeyQuebecImg4
     ]
   },
   {
@@ -181,7 +195,9 @@ const projects = [
     link: "https://2259198.github.io/Refonte-Centre-Entrainement-Crow/",
     image: crowImg,
     projectDetailImage: [
-      crowImgDetail
+      crowImgDetail,
+      crowImg1,
+      crowImg2
     ]
   },
   {
@@ -193,7 +209,10 @@ const projects = [
     link: "https://www.youtube.com/watch?v=PUPltwrqhIw",
     image: goldenDragonImg,
     projectDetailImage: [
-      goldenDragonImg
+      goldenDragonImg1,
+      goldenDragonImg2,
+      goldenDragonImg3,
+      goldenDragonImg4
     ]
   },
   {
