@@ -20,9 +20,10 @@ export default function About() {
           </div>
           <div className="info">
             <h2>Alexander Rankov</h2>
+            <h3>Software Engineer student</h3>
             <p className="location">Vaudreuil-Dorion, Québec, Canada</p>
             <p className="bio">
-              Passionate about the world of video games and programming, I specialize in game development. I have a clear goal in life: to work in globally renowned studios. Driven by innovation and attention to detail, I am ready to tackle challenges to create experiences that captivate players.
+              My name is Alexander Rankov, and I’m based in Vaudreuil-Dorion, Canada. I’m a software engineering student at École de technologie supérieure (ÉTS), focusing on game development, and I want to work in a game studio or in AI building games and interactive systems.
             </p>
           </div>
         </div>
