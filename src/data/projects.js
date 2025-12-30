@@ -1,9 +1,9 @@
 import achernarImg from "../assets/Projects/Achernar_Logo.png";
-import todoImg from "../assets/Projects/To_Do_List_Icon.jpg";
+import todoImg from "../assets/Projects/To_Do_List_Icon.png";
 import pixelAdventureImg from "../assets/Projects/Pixel_Adventure_Logo.png";
-import goldenDragonImg from "../assets/Projects/Golden_Dragon.png";
+import goldenDragonImg from "../assets/Projects/GoldenDragonLogo.png";
 import crowImg from "../assets/Projects/Crow_Icon.jpg";
-import quizAviationImg from "../assets/Projects/Aviation_Quiz_Icon.jpg";
+import quizAviationImg from "../assets/Projects/Aviation_Quiz_Icon.png";
 import hockeyQuebecImg from "../assets/Projects/Hockey_Quebec.avif";
 import astroDashImg from "../assets/Projects/Astro_Dash_Logo.png";
 

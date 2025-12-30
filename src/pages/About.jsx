@@ -23,7 +23,7 @@ export default function About() {
             <h3>Software Engineer student</h3>
             <p className="location">Vaudreuil-Dorion, Québec, Canada</p>
             <p className="bio">
-              My name is Alexander Rankov, and I’m based in Vaudreuil-Dorion, Canada. I’m a software engineering student at École de technologie supérieure (ÉTS), focusing on game development, and I want to work in a game studio or in AI building games and interactive systems.
+              My name is Alexander Rankov, and I’m based in Vaudreuil-Dorion, Canada. I’m a first year software engineering student at École de technologie supérieure (ÉTS), focusing on game development, and I want to work in a game studio or in AI building games and interactive systems.
             </p>
           </div>
         </div>

@@ -43,7 +43,7 @@ export default function Contact() {
         <div className="section contact-info">
           <h2>Contact Me</h2>
           <p>Phone: 514-746-9895</p>
-          <p>Location: Vaudreuil-Dorion, Québec</p>
+          <p>Location: Vaudreuil-Dorion, Québec, Canada</p>
           <div className="social-links">
             <a href="mailto:alexanderrankov@gmail.com" onClick={(e) => e.stopPropagation()}>
               <img src={gmailLogo} alt="Email" />

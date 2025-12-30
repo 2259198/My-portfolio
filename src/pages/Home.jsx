@@ -17,7 +17,7 @@ export default function Home() {
             <div className="text">
               <h1>Alexander Rankov</h1>
               <h3>Software Engineer student</h3>
-              <p>My name is Alexander Rankov, and I’m based in Vaudreuil-Dorion, Canada. I’m a software engineering student at École de technologie supérieure (ÉTS), focusing on game development, and I want to work in a game studio or in AI building games and interactive systems.</p>
+              <p>My name is Alexander Rankov, and I’m based in Vaudreuil-Dorion, Canada. I’m a first year software engineering student at École de technologie supérieure (ÉTS), focusing on game development, and I want to work in a game studio or in AI building games and interactive systems.</p>
               <div className="buttons">
                 <Link to="/projects">View My Projects </Link>
                 <Link to="/about">About Me</Link>
