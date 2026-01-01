@@ -5,6 +5,10 @@ import meImage from '../assets/me.webp';
 import sneakPeak from '../data/sneakPeekProjects';
 import './Home.scss';
 import projects from '../data/projects';
+import CV_English from "../assets/CV/Alexander_Rankov_CV_EN.pdf";
+import gmailLogo from "../assets/Icons/gmail.svg";
+import linkedInLogo from "../assets/Icons/linkedin_blue.svg";
+import githubLogo from "../assets/Icons/github_blue.svg";
 
 export default function Home() {
   const navigate = useNavigate();
@@ -17,11 +21,24 @@ export default function Home() {
             <div className="text">
               <h1>Alexander Rankov</h1>
               <h3>Software Engineer student</h3>
+              {/* put my age, Available for work icon */}
               <p>My name is Alexander Rankov, and I’m based in Vaudreuil-Dorion, Canada. I’m a first year software engineering student at École de technologie supérieure (ÉTS), focusing on game development, and I want to work in a game studio or in AI building games and interactive systems.</p>
-              <div className="buttons">
+              <div className='CV_download'>
+                <div className='links-align'>
+                  <a className='btn_download' href={CV_English} download="Rankov_Alexander_CV_EN.pdf">Download CV</a>
+                  <div className="social-links">
+                    <a href="mailto:alexanderrankov@gmail.com" onClick={(e) => e.stopPropagation()}>
+                      <img src={gmailLogo} alt="Email" />
+                    </a>
+                    <a href="https://www.linkedin.com/in/alexander-rankov-19aa77309/" className='logo' target='_blank'><img src={linkedInLogo} alt="This is the LinkedIn logo" /></a>
+                    <a href="https://github.com/2259198" className='logo' target='_blank'><img src={githubLogo} alt="This is the github logo" /></a>
+                  </div>
+                </div>
+              </div>
+              {/* <div className="buttons">
                 <Link to="/projects">View My Projects </Link>
                 <Link to="/about">About Me</Link>
-              </div>
+              </div> */}
             </div>
             <div className="image">
               <img src={meImage} alt="Alexander Rankov" />

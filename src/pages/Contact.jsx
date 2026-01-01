@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import './Contact.scss';
-import CV_English from "../assets/CV/Alexander_Rankov_CV_EN.pdf";
 import gmailLogo from "../assets/Icons/gmail.svg";
 import linkedInLogo from "../assets/Icons/linkedin_blue.svg";
 import githubLogo from "../assets/Icons/github_blue.svg";
@@ -50,11 +49,9 @@ export default function Contact() {
             </a>
             <a href="https://www.linkedin.com/in/alexander-rankov-19aa77309/" className='logo' target='_blank'><img src={linkedInLogo} alt="This is the LinkedIn logo" /></a>
             <a href="https://github.com/2259198" className='logo' target='_blank'><img src={githubLogo} alt="This is the github logo" /></a>
-            <a href="https://alexrkv11.itch.io/" className='logo' target='_blank'><img src={itchLogo} alt="This is the itch.io logo" /></a>
+            {/* <a href="https://alexrkv11.itch.io/" className='logo' target='_blank'><img src={itchLogo} alt="This is the itch.io logo" /></a> */}
           </div>
-          <div className='CV_download'>
-            <a className='btn_download' href={CV_English} download="Rankov_Alexander_CV_EN.pdf">Download CV</a>
-          </div>
+          
         </div>
 
         <div className="section contact-form">
