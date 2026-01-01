@@ -2,12 +2,15 @@
 @import "../styles/mixins";
 
 .footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   background: $primary-color;
   color: white;
   text-align: center;
   padding: 1.5rem;
 
-  .socials{
+  .socials {
     display: flex;
     justify-content: center;
     gap: 1rem;
@@ -15,5 +18,16 @@
 
   p {
     font-size: 0.9rem;
+  }
+}
+
+@media (min-width:768px) {
+  .footer {
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+  }
+  .socials{
+    order: 2;
   }
 }

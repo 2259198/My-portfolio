@@ -16,7 +16,7 @@ export default function Footer() {
         <Link to=""><img src={itchLogo} alt="itch.io logo" /></Link>
         <Link to="https://www.linkedin.com/in/alexander-rankov-19aa77309/"><img src={linkedInLogo} alt="LinkedIn logo" /></Link>
       </div>
-      <p>© {new Date().getFullYear()} My Portfolio. All rights reserved to Alexander Rankov.</p>
+      <p>© {new Date().getFullYear()} All rights reserved to Alexander Rankov.</p>
     </footer>
   );
 }

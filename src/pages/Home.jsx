@@ -19,10 +19,10 @@ export default function Home() {
         <div className="hero-rectangle">
           <div className="hero-content">
             <div className="text">
-              <h1>Alexander Rankov</h1>
+              <h1>Hi, I'm Alexander Rankov</h1>
               <h3>Software Engineer student</h3>
               {/* put my age, Available for work icon */}
-              <p>My name is Alexander Rankov, and I’m based in Vaudreuil-Dorion, Canada. I’m a first year software engineering student at École de technologie supérieure (ÉTS), focusing on game development, and I want to work in a game studio or in AI building games and interactive systems.</p>
+              <p>I'm a 20 year-old based in Vaudreuil-Dorion, Canada. I’m a first year software engineering student at École de technologie supérieure (ÉTS), focusing on game development, and I want to work in a game studio or in AI building games and interactive systems.</p>
               <div className='CV_download'>
                 <div className='links-align'>
                   <a className='btn_download' href={CV_English} download="Rankov_Alexander_CV_EN.pdf">Download CV</a>
@@ -35,10 +35,6 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              {/* <div className="buttons">
-                <Link to="/projects">View My Projects </Link>
-                <Link to="/about">About Me</Link>
-              </div> */}
             </div>
             <div className="image">
               <img src={meImage} alt="Alexander Rankov" />
