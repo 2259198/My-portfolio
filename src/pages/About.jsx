@@ -7,7 +7,7 @@ import educationIcon from "../assets/Icons/education.svg";
 import workIcon from "../assets/Icons/work.svg";
 import videoGameIcon from "../assets/Icons/video-game.svg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faScrewdriverWrench, faCode, faC } from "@fortawesome/free-solid-svg-icons";
+import { faScrewdriverWrench, faCode, faLocationDot } from "@fortawesome/free-solid-svg-icons";
 
 
 export default function About() {
@@ -21,10 +21,14 @@ export default function About() {
           <div className="info">
             <h2>Alexander Rankov</h2>
             <h3>Software Engineer student</h3>
-            <p className="location">Vaudreuil-Dorion, Québec, Canada</p>
-            <p className="bio">
+            <div className='dot'>
+              <FontAwesomeIcon icon={faLocationDot} color='#0077ff' className='icon locationIcon' />
+              <p className="location">Vaudreuil-Dorion, Québec, Canada</p>
+            </div>
+
+            {/* <p className="bio">
               My name is Alexander Rankov, and I’m based in Vaudreuil-Dorion, Canada. I’m a first year software engineering student at École de technologie supérieure (ÉTS), focusing on game development, and I want to work in a game studio or in AI building games and interactive systems.
-            </p>
+            </p> */}
           </div>
         </div>
 

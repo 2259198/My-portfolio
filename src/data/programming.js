@@ -1,14 +1,5 @@
 const programming = [
     {
-        programming: "C#"
-    },
-    {
-        programming: "C++"
-    },
-    {
-        programming: "GDScript"
-    },
-    {
         programming: "HTML5"
     },
     {

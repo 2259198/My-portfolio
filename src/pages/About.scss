@@ -57,7 +57,7 @@
     .location {
       color: $black-color;
       margin-bottom: 1rem;
-      font-weight: 500;
+      font-size: 1rem;
     }
 
     .bio {
@@ -87,6 +87,19 @@
   .icon {
     width: 80px;
     height: 80px;
+    padding: 1rem;
+  }
+
+  .dot{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .locationIcon{
+    width: 25px;
+    height: 25px;
     padding: 1rem;
   }
 
@@ -196,6 +209,15 @@
     .invisible-line {
       width: 2px;
       height: auto;
+    }
+
+    .location{
+      font-size: 1rem;
+    }
+
+    .locationIcon{
+      width: 30px;
+      height: 30px;
     }
 
     .skills {
