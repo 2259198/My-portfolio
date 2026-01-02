@@ -11,7 +11,26 @@ import linkedInLogo from "../assets/Icons/linkedin_blue.svg";
 import githubLogo from "../assets/Icons/github_blue.svg";
 
 export default function Home() {
+
   const navigate = useNavigate();
+
+  const calculateAge = (birthdate) => {
+    const today = new Date();
+    const birth = new Date(birthdate);
+
+    let age = today.getFullYear() - birth.getFullYear();
+
+    const monthDiff = today.getMonth() - birth.getMonth();
+    const dayDiff = today.getDate() - birth.getDate();
+
+    if (monthDiff < 0 || (monthDiff === 0 && dayDiff < 0)) {
+      age--;
+    }
+
+    return age;
+  }
+
+  const age = calculateAge("2005-04-22");
 
   return (
     <section className="home" id="home">
@@ -22,7 +41,7 @@ export default function Home() {
               <h1>Hi, I'm Alexander Rankov</h1>
               <h3>Software Engineer student</h3>
               {/* put my age, Available for work icon */}
-              <p>I'm a 20 year-old based in Vaudreuil-Dorion, Canada. I’m a first year software engineering student at École de technologie supérieure (ÉTS), focusing on game development, and I want to work in a game studio or in AI building games and interactive systems.</p>
+              <p>I'm a {age} year-old based in Vaudreuil-Dorion, Canada. I’m a first year software engineering student at École de technologie supérieure (ÉTS), focusing on game development, and I want to work in a game studio or in AI.</p>
               <div className='CV_download'>
                 <div className='links-align'>
                   <a className='btn_download' href={CV_English} download="Rankov_Alexander_CV_EN.pdf">Download CV</a>

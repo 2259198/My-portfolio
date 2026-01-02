@@ -66,6 +66,19 @@
     }
   }
 
+  .dot, .phone{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .locationIcon, .phoneIcon{
+    width: 25px;
+    height: 25px;
+  }
+
   form {
     display: flex;
     flex-direction: column;
