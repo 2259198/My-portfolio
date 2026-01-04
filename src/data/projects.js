@@ -178,7 +178,7 @@ const projects = [
     inDepthDescription: "Promotional and Informational Videos — Internship at Hockey Québec \n Produced a series of promotional and informational videos during my internship, using After Effects and Illustrator to create animations, edit footage, and design visual elements. Ensured all content adhered to Hockey Québec’s branding guidelines, enhancing the organization’s digital presence and communication materials.",
     // finishedDate: new Date(2025, 5, 9),
     icon: ["video"],
-    link: "https://www.youtube.com/playlist?list=PLVJ9ECOMr_AOgGoC_Jxvu4xcV_a0DsJQS",
+    link: "https://www.youtube.com/watch?v=2cUpMW7ARbI",
     image: hockeyQuebecImg,
     projectDetailImage: [
       hockeyQuebecImg2,

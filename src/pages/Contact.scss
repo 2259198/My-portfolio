@@ -5,7 +5,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  
+
   padding: 2rem 1rem;
   gap: 3rem;
   background: $white-color;
@@ -66,7 +66,8 @@
     }
   }
 
-  .dot, .phone{
+  .dot,
+  .phone {
     display: flex;
     justify-content: center;
     flex-direction: row;
@@ -74,7 +75,8 @@
     gap: 1rem;
   }
 
-  .locationIcon, .phoneIcon{
+  .locationIcon,
+  .phoneIcon {
     width: 25px;
     height: 25px;
   }
@@ -87,7 +89,8 @@
     gap: 1rem;
     width: 100%;
 
-    input, textarea {
+    input,
+    textarea {
       padding: 0.75rem 1rem;
       border: 1px solid #ddd;
       border-radius: 10px;
@@ -109,10 +112,11 @@
       border-radius: 10px;
       font-size: 1rem;
       cursor: pointer;
-      transition: background 0.2s;
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
 
       &:hover {
-        background: $primary-color-hover;
+        transform: translateY(-2px);
+        box-shadow: 0 6px 16px rgba(0, 119, 255, 0.5);
       }
     }
   }

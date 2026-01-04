@@ -38,7 +38,7 @@ export default function Home() {
         <div className="hero-rectangle">
           <div className="hero-content">
             <div className="text">
-              <h1>Hi, I'm Alexander Rankov</h1>
+              <h1>Hello, I'm Alexander Rankov</h1>
               <h3>Software Engineer student</h3>
               {/* put my age, Available for work icon */}
               <p>I'm a {age} year-old based in Vaudreuil-Dorion, Canada. I’m a first year software engineering student at École de technologie supérieure (ÉTS), focusing on game development, and I want to work in a game studio or in AI.</p>
