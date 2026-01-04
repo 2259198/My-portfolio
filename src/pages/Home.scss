@@ -147,6 +147,24 @@
     }
   }
 
+  .welcome-overlay {
+  position: fixed;
+  inset: 0;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+
+  h1 {
+    color: $primary-color;
+    font-size: 3rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+  }
+}
+
+
   .projects-button {
     margin-top: 2rem;
     display: flex;

@@ -52,10 +52,10 @@ export default function Contact() {
             <p className="location">Vaudreuil-Dorion, Québec, Canada</p>
           </div>
           <div className="social-links">
+            <a href="https://www.linkedin.com/in/alexander-rankov-19aa77309/" className='logo' target='_blank'><img src={linkedInLogo} alt="This is the LinkedIn logo" /></a>
             <a href="mailto:alexanderrankov@gmail.com" onClick={(e) => e.stopPropagation()}>
               <img src={gmailLogo} alt="Email" />
             </a>
-            <a href="https://www.linkedin.com/in/alexander-rankov-19aa77309/" className='logo' target='_blank'><img src={linkedInLogo} alt="This is the LinkedIn logo" /></a>
             <a href="https://github.com/2259198" className='logo' target='_blank'><img src={githubLogo} alt="This is the github logo" /></a>
             {/* <a href="https://alexrkv11.itch.io/" className='logo' target='_blank'><img src={itchLogo} alt="This is the itch.io logo" /></a> */}
           </div>

@@ -10,6 +10,10 @@ import gmailLogo from "../assets/Icons/gmail.svg";
 import linkedInLogo from "../assets/Icons/linkedin_blue.svg";
 import githubLogo from "../assets/Icons/github_blue.svg";
 
+import { motion, AnimatePresence } from "framer-motion";
+import { useState } from "react";
+
+
 export default function Home() {
 
   const navigate = useNavigate();
@@ -31,9 +35,55 @@ export default function Home() {
   }
 
   const age = calculateAge("2005-04-22");
+  const [showIntro, setShowIntro] = useState(true);
+
 
   return (
-    <section className="home" id="home">
+
+    <motion.section
+      className="home"
+      id="home"
+      initial={{
+        clipPath: "inset(0 0 100% 0)",
+        opacity: 0,
+        boxShadow: "0 0 0 rgba(0,0,0,0)"
+      }}
+      animate={{
+        clipPath: "inset(0 0 0% 0)",
+        opacity: 1,
+        boxShadow: "0 20px 40px rgba(0,0,0,0.25)"
+      }}
+      transition={{
+        duration: 3,
+        ease: [0.22, 1, 0.36, 1]
+      }}
+    >
+
+      <AnimatePresence>
+        {showIntro && (
+          <motion.div
+            className="welcome-overlay"
+            initial={{ opacity: 1 }}
+            animate={{ opacity: 1 }}
+            exit={{
+              clipPath: "inset(0 0 100% 0)",
+              transition: { duration: 3.5, ease: "easeInOut" }
+            }}
+            onAnimationComplete={() => setShowIntro(false)}
+          >
+            <motion.h1
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 1, ease: "easeOut" }}
+            >
+              Welcome
+            </motion.h1>
+          </motion.div>
+        )}
+      </AnimatePresence>
+
+
+
       <div className="container">
         <div className="hero-rectangle">
           <div className="hero-content">
@@ -46,10 +96,10 @@ export default function Home() {
                 <div className='links-align'>
                   <a className='btn_download' href={CV_English} download="Rankov_Alexander_CV_EN.pdf">Download CV</a>
                   <div className="social-links">
+                    <a href="https://www.linkedin.com/in/alexander-rankov-19aa77309/" className='logo' target='_blank'><img src={linkedInLogo} alt="This is the LinkedIn logo" /></a>
                     <a href="mailto:alexanderrankov@gmail.com" onClick={(e) => e.stopPropagation()}>
                       <img src={gmailLogo} alt="Email" />
                     </a>
-                    <a href="https://www.linkedin.com/in/alexander-rankov-19aa77309/" className='logo' target='_blank'><img src={linkedInLogo} alt="This is the LinkedIn logo" /></a>
                     <a href="https://github.com/2259198" className='logo' target='_blank'><img src={githubLogo} alt="This is the github logo" /></a>
                   </div>
                 </div>
@@ -83,6 +133,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-    </section>
+    </motion.section>
+
   );
 }
