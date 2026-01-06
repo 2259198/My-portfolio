@@ -131,7 +131,7 @@ const projects = [
     ]
   },
   {
-    title: "To-do list",
+    title: "Checklist",
     description: "A React-based web application designed with a to-do list style interface. The project was a way to learn React while managing states in this programming language. It allowed me and my classmate Gabrielle to experiment with modern front-end workflows and create a clean, minimal user experience.",
     inDepthDescription: "React Web Application — To-Do List Interface (Team Project) \n Built a React-based web application featuring a clean, minimal to-do list interface. Developed as a learning project to explore React fundamentals, component-based architecture, and state management. Collaborated with classmate Gabrielle to experiment with modern front-end workflows, improve UI/UX design, and gain hands-on experience with responsive layout, reusable components, and interactive user input handling.",
     // finishedDate: new Date(2024, 6, 5),
@@ -144,7 +144,7 @@ const projects = [
     ]
   },
   {
-    title: "Quiz Aviation",
+    title: "Aviation - Quiz",
     description: "An interactive web quiz built using JavaScript, designed to test users' knowledge of aviation. This project allowed me to practice DOM manipulation, and creating an engaging experience through front-end coding. It was the first time we learned to code with different screen sizes. If you're a fan of aviation, try it.",
     inDepthDescription: "Interactive Aviation Quiz — JavaScript Web Project \n Created an interactive web quiz using JavaScript to test users’ knowledge of aviation. The project focused on practicing DOM manipulation, dynamic content updates, and front-end interactivity. It was also my first experience designing for multiple screen sizes, introducing responsive layout techniques. The result was a simple yet engaging quiz experience—perfect for aviation enthusiasts.",
     // finishedDate: new Date(2023, 5, 20),
@@ -187,9 +187,9 @@ const projects = [
     ]
   },
   {
-    title: "Redesign 'Crow'",
-    description: "A complete redesign of the Centre d'entraînement Crow website. The focus of this project was on improving user experience, and updating the visual identity. I worked with HTML, CSS, and Adobe XD to prototype the new layout with my classmate Minji Ardanuy-Jetté.",
-    inDepthDescription: "Website Redesign — Centre d'entraînement Crow (Team Project) \n Led a full redesign of the Centre d'entraînement Crow website with Minji Ardanuy-Jetté, focusing on improving user experience and modernizing the visual identity. Developed prototypes and layouts in Adobe XD, and implemented the new design using HTML and CSS, ensuring a clean, intuitive, and responsive interface.",
+    title: "Crow - Redesign",
+    description: "A complete redesign of the Centre d'entraînement Crow website. The focus of this project was on improving user experience, and updating the visual identity. I worked with HTML, CSS and Adobe XD to prototype the new layout with my classmate Minji Ardanuy-Jetté.",
+    inDepthDescription: "Website Redesign — Centre d'entraînement Crow (Team Project) \n Led a full redesign of the Centre d'entraînement Crow website with Minji Ardanuy-Jetté, focusing on improving user experience and modernizing the visual identity. Developed prototypes and layouts in Adobe XD and implemented the new design using HTML and CSS, ensuring a clean, intuitive, and responsive interface.",
     // finishedDate: new Date(2023, 12, 12),
     icon: ["html", "css", "js"],
     link: "https://2259198.github.io/Refonte-Centre-Entrainement-Crow/",
