@@ -97,7 +97,22 @@
     }
   }
 
-  @media(min-width: 600px) {
+  .date {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+
+    p {
+      background: rgba(0, 119, 255, 0.8);
+      color: white;
+      padding: 1rem;
+      border-radius: 25px;
+      font-weight: 600;
+    }
+  }
+
+  @media(min-width: 768px) {
     .grid {
       grid-template-columns: repeat(2, 1fr);
     }
@@ -120,6 +135,10 @@
 
     .project-card p {
       text-align: left;
+    }
+
+    .date{
+      flex-direction: row;
     }
   }
 }

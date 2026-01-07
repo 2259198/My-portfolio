@@ -14,12 +14,13 @@ const Projects = () => {
         <div className="grid">
           {projects.map((project, index) => (
             <div key={index} className="project-card">
-              
+
               <img src={project.image} alt={project.title} />
               <h2>{project.title}</h2>
               <p>{project.description}</p>
 
               <ul className="tech-list">
+
                 {project.icon.map((iconKey, i) => (
                   <li key={i}>
                     <FontAwesomeIcon
@@ -28,11 +29,15 @@ const Projects = () => {
                     />
                   </li>
                 ))}
-              </ul>
 
-              <Link to={`/projects/${index}`} className="learn-more">
-                Learn More
-              </Link>
+              </ul>
+              <div className="date">
+                <p>{project.finishedDate.toLocaleDateString("en-FR")}</p>
+                <Link to={`/projects/${index}`} className="learn-more">
+                  Learn More
+                </Link>
+              </div>
+
             </div>
           ))}
         </div>
