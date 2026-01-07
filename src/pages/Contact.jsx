@@ -57,7 +57,6 @@ export default function Contact() {
               <img src={gmailLogo} alt="Email" />
             </a>
             <a href="https://github.com/2259198" className='logo' target='_blank'><img src={githubLogo} alt="This is the github logo" /></a>
-            {/* <a href="https://alexrkv11.itch.io/" className='logo' target='_blank'><img src={itchLogo} alt="This is the itch.io logo" /></a> */}
           </div>
 
         </div>
