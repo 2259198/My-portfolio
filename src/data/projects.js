@@ -95,8 +95,8 @@ const projects = [
   // },
   {
     title: "Calculator App",
-    description: "A calculator App made in Java",
-    inDepthDescription: "Done in a later stage",
+    description: "A simple calculator app built in Java to perform basic arithmetic operations.",
+    inDepthDescription: "A personal Java project where I created a fully functional calculator app. This project helped me strengthen my understanding of Java fundamentals, including object-oriented programming, event handling and GUI design. The app allows users to perform addition, subtraction, multiplication, division and more operations. It demonstrates an user-friendly interface design.",
     finishedDate: new Date(2026, 0, 9),
     icon: ["java", "github"],
     link: "https://alexrkv11.itch.io/projet-achernar",
