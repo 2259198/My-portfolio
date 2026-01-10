@@ -33,10 +33,17 @@ const ProjectDetails = () => {
                 </ul>
 
                 <div className="button">
-                    <a href={project.link} target="_blank" rel="noopener noreferrer">
-                        Visit Project
-                    </a>
+                    {project.isDownload ? (
+                        <a href={project.downloadFile} download>
+                            Download Calculator
+                        </a>
+                    ) : (
+                        <a href={project.link} target="_blank" rel="noopener noreferrer">
+                            Visit Project
+                        </a>
+                    )}
                 </div>
+
             </div>
         </div>
     );

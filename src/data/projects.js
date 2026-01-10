@@ -50,6 +50,7 @@ import crowImgDetail from "../assets/ProjectsPhotos/Crow.png";
 import hockeyQuebecImgDetail from "../assets/ProjectsPhotos/Hockey_Quebec.png";
 import toDoListImgDetail from "../assets/ProjectsPhotos/to-do-list.png";
 
+
 const projects = [
 
   // {
@@ -99,7 +100,8 @@ const projects = [
     inDepthDescription: "A personal Java project where I created a fully functional calculator app. This project helped me strengthen my understanding of Java fundamentals, including object-oriented programming, event handling and GUI design. The app allows users to perform addition, subtraction, multiplication, division and more operations. It demonstrates an user-friendly interface design.",
     finishedDate: new Date(2026, 0, 9),
     icon: ["java", "github"],
-    link: "https://alexrkv11.itch.io/projet-achernar",
+    isDownload: true,
+    downloadFile: import.meta.env.BASE_URL + "downloads/Calculator.zip",
     image: calculatorMainImg,
     projectDetailImage: [
 
