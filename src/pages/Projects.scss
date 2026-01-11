@@ -37,7 +37,7 @@
 
     background: $white-color;
     border-radius: 15px;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
     padding: 2rem;
     width: 100%;
     height: 100%;
@@ -101,7 +101,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 1.5rem;
+    gap: 1.2rem;
+    padding-bottom: 1rem;
 
     p {
       background: rgba(0, 119, 255, 0.8);
@@ -133,12 +134,9 @@
       height: 170px;
     }
 
-    .project-card p {
-      text-align: left;
-    }
-
     .date{
       flex-direction: row;
+      gap: 1.5rem;
     }
   }
 }
