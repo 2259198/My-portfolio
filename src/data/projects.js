@@ -50,6 +50,13 @@ import crowImgDetail from "../assets/ProjectsPhotos/Crow.png";
 import hockeyQuebecImgDetail from "../assets/ProjectsPhotos/Hockey_Quebec.png";
 import toDoListImgDetail from "../assets/ProjectsPhotos/to-do-list.png";
 
+import escapeTheLabyrinthLogo from "../assets/Icons/EscapeTheLabyrinthLogo.png";
+import escapeTheLabyrinthImg1 from "../assets/ProjectsPhotosExtra/EscapeTheLabyrinth/EscapeTheLabyrinth1.png";
+import escapeTheLabyrinthImg2 from "../assets/ProjectsPhotosExtra/EscapeTheLabyrinth/EscapeTheLabyrinth2.png";
+import escapeTheLabyrinthImg3 from "../assets/ProjectsPhotosExtra/EscapeTheLabyrinth/EscapeTheLabyrinth3.png";
+import escapeTheLabyrinthImg4 from "../assets/ProjectsPhotosExtra/EscapeTheLabyrinth/EscapeTheLabyrinth4.png";
+import escapeTheLabyrinthImgBanner from "../assets/ProjectsPhotosExtra/EscapeTheLabyrinth/EscapeTheLabyrinthBanner.png";
+
 
 const projects = [
 
@@ -73,27 +80,24 @@ const projects = [
 
   //   ]
   // },
-  // {
-  //   title: "Escape the Labyrinth",
-  //   description: "My end of the year project for my last project in College de Maisonneuve",
-  //   inDepthDescription: "Done in a later stage",
-  //   finishedDate: new Date(2025, 2, 24),
-  //   icon: ["unity", "github"],
-  //   link: "",
-  //   image: achernarImg,
-  //   projectDetailImage: [
+  {
+    title: "Escape the Labyrinth",
+    description: "A first-person adventure and survival game developed in Unreal Engine as my end-of-semester project at Collège de Maisonneuve.",
+    inDepthDescription: "Escape The Labyrinth — End-of-Semester Project (Unreal Engine) \n Escape The Labyrinth is a first-person adventure and survival game developed in Unreal Engine as my final project at Collège de Maisonneuve. The game places the player inside a dark and mysterious labyrinth where survival depends on exploration, quick reflexes and smart decision-making. Players must navigate through an immersive maze filled with dynamic obstacles such as deadly spikes, swinging blades, moving platforms and other environmental hazards. A countdown timer adds constant pressure, pushing players to move efficiently and think strategically in order to find the exit before time runs out.",
+    finishedDate: new Date(2025, 1, 24),
+    icon: ["unity", "github"],
+    link: "https://alexrkv11.itch.io/escape-the-labyrinth",
+    image: escapeTheLabyrinthLogo,
+    projectDetailImage: [
 
-  //     achernarImgDetail,
-  //     achernarImg,
-  //     achernarImg2,
-  //     achernarImg3,
-  //     achernarImg4,
-  //     achernarImg5,
-  //     achernarImg6,
-  //     achernarImg7,
+      escapeTheLabyrinthImgBanner,
+      escapeTheLabyrinthImg1,
+      escapeTheLabyrinthImg2,
+      escapeTheLabyrinthImg3,
+      escapeTheLabyrinthImg4
 
-  //   ]
-  // },
+    ]
+  },
   {
     title: "Calculator App",
     description: "A simple calculator app built in Java to perform basic arithmetic operations.",
