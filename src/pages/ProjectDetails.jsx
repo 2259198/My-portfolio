@@ -49,7 +49,7 @@ const ProjectDetails = () => {
                 <div className="button">
                     {project.isDownload ? (
                         <a href={project.downloadFile} download>
-                            Download Calculator
+                            Download
                         </a>
                     ) : (
                         <a href={project.link} target="_blank" rel="noopener noreferrer">
