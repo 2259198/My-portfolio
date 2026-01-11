@@ -18,9 +18,8 @@ export default function Header() {
   return (
     <header className="header">
       <div className="logo">
-        <Link to="/#">
-          <img src={logo} alt="This is my main logo" />
-        </Link>
+        <Link to=""><img src={logo} alt="This is my main logo" /></Link>
+
 
       </div>
       <nav className={`nav-links ${isOpen && isMobile ? 'open' : ''}`}>
