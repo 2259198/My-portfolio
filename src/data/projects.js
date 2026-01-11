@@ -45,12 +45,10 @@ import pixelAdventureImg2 from "../assets/ProjectsPhotosExtra/PixelAdventure/Fou
 import pixelAdventureImg3 from "../assets/ProjectsPhotosExtra/PixelAdventure/Third_Level.png";
 import pixelAdventureImg4 from "../assets/ProjectsPhotosExtra/PixelAdventure/Shop.png";
 
-import aviationImgDetail from "../assets/ProjectsPhotos/aviation.png";
 import crowImgDetail from "../assets/ProjectsPhotos/Crow.png";
-import hockeyQuebecImgDetail from "../assets/ProjectsPhotos/Hockey_Quebec.png";
 import toDoListImgDetail from "../assets/ProjectsPhotos/to-do-list.png";
 
-import escapeTheLabyrinthLogo from "../assets/Icons/EscapeTheLabyrinthLogo.png";
+import escapeTheLabyrinthLogo from "../assets/Icons/EscapeTheLabyrinth-Icon.png";
 import escapeTheLabyrinthImg1 from "../assets/ProjectsPhotosExtra/EscapeTheLabyrinth/EscapeTheLabyrinth1.png";
 import escapeTheLabyrinthImg2 from "../assets/ProjectsPhotosExtra/EscapeTheLabyrinth/EscapeTheLabyrinth2.png";
 import escapeTheLabyrinthImg3 from "../assets/ProjectsPhotosExtra/EscapeTheLabyrinth/EscapeTheLabyrinth3.png";
@@ -85,7 +83,7 @@ const projects = [
     description: "A first-person adventure and survival game developed in Unreal Engine as my end-of-semester project at Collège de Maisonneuve.",
     inDepthDescription: "Escape The Labyrinth — End-of-Semester Project (Unreal Engine) \n Escape The Labyrinth is a first-person adventure and survival game developed in Unreal Engine as my final project at Collège de Maisonneuve. The game places the player inside a dark and mysterious labyrinth where survival depends on exploration, quick reflexes and smart decision-making. Players must navigate through an immersive maze filled with dynamic obstacles such as deadly spikes, swinging blades, moving platforms and other environmental hazards. A countdown timer adds constant pressure, pushing players to move efficiently and think strategically in order to find the exit before time runs out.",
     finishedDate: new Date(2025, 1, 24),
-    icon: ["unity", "github"],
+    icon: ["unreal", "blender"],
     link: "https://alexrkv11.itch.io/escape-the-labyrinth",
     image: escapeTheLabyrinthLogo,
     projectDetailImage: [
@@ -101,7 +99,7 @@ const projects = [
   {
     title: "Calculator App",
     description: "A simple calculator app built in Java to perform basic arithmetic operations.",
-    inDepthDescription: "A personal Java project where I created a fully functional calculator app. This project helped me strengthen my understanding of Java fundamentals, including object-oriented programming, event handling and GUI design. The app allows users to perform addition, subtraction, multiplication, division and more operations. It demonstrates an user-friendly interface design.",
+    inDepthDescription: "Calculator App (Java) \n A personal Java project where I created a fully functional calculator app. This project helped me strengthen my understanding of Java fundamentals, including object-oriented programming, event handling and GUI design. The app allows users to perform addition, subtraction, multiplication, division and more operations. It demonstrates an user-friendly interface design.",
     finishedDate: new Date(2026, 0, 9),
     icon: ["java"],
     isDownload: true,

@@ -22,14 +22,28 @@ const ProjectDetails = () => {
                 <ImageCarousel images={project.projectDetailImage} />
                 <p>{project.inDepthDescription}</p>
                 <ul className="list">
-                    {project.icon.map((iconKey, i) => (
-                        <li key={i}>
-                            <FontAwesomeIcon
-                                icon={iconMap[iconKey]}
-                                style={{ color: "#0077ff", fontSize: "3rem" }}
-                            />
-                        </li>
-                    ))}
+                    {project.icon.map((iconKey, i) => {
+                        const icon = iconMap[iconKey];
+
+                        return (
+                            <li key={i}>
+                                {typeof icon === "string" ? (
+                                    <img
+                                        src={icon}
+                                        alt={iconKey}
+                                        className="tech-icon"
+                                        style={{ color: "#0077ff", fontSize: "3rem" }}
+                                    />
+                                ) : (
+                                    <FontAwesomeIcon
+                                        icon={icon}
+                                        className="tech-icon"
+                                        style={{ color: "#0077ff", fontSize: "3rem" }}
+                                    />
+                                )}
+                            </li>
+                        );
+                    })}
                 </ul>
 
                 <div className="button">

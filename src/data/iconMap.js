@@ -3,6 +3,9 @@ import { faCss3Alt, faHtml5, faJs, faReact, faGithub, faUnity, faJava} from "@fo
 import { faVideo } from "@fortawesome/free-solid-svg-icons";
 import { faBezierCurve } from "@fortawesome/free-solid-svg-icons";
 
+import unrealEngineIcon from "../assets/Icons/UnrealEngine.svg";
+import blenderIcon from "../assets/Icons/Blender.svg";
+
 export const iconMap = {
   css: faCss3Alt,
   html: faHtml5,
@@ -12,5 +15,7 @@ export const iconMap = {
   unity: faUnity,
   video: faVideo,
   illustrator: faBezierCurve,
-  java: faJava
+  java: faJava,
+  unreal: unrealEngineIcon,
+  blender: blenderIcon
 };
