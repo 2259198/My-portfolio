@@ -91,7 +91,7 @@ export default function Home() {
               <h1>Hello, I'm Alexander Rankov</h1>
               <h3>Software Engineer student</h3>
               {/* put my age, Available for work icon */}
-              <p>I'm a {age} year-old based in Vaudreuil-Dorion, Canada. I’m a first year software engineering student at École de technologie supérieure (ÉTS), focusing on game development, and I want to work in a game studio or in AI.</p>
+              <p>I'm a {age} year-old based in Vaudreuil-Dorion, Canada. I’m a first year software engineering student at École de technologie supérieure (ÉTS), focusing on game development and I want to work in a game studio or in AI.</p>
               <div className='CV_download'>
                 <div className='links-align'>
                   <a className='btn_download' href={CV_English} download="Rankov_Alexander_CV_EN.pdf">Download CV</a>

@@ -25,10 +25,6 @@ export default function About() {
               <FontAwesomeIcon icon={faLocationDot} color='#0077ff' className='icon locationIcon' />
               <p className="location">Vaudreuil-Dorion, Québec, Canada</p>
             </div>
-
-            {/* <p className="bio">
-              My name is Alexander Rankov, and I’m based in Vaudreuil-Dorion, Canada. I’m a first year software engineering student at École de technologie supérieure (ÉTS), focusing on game development, and I want to work in a game studio or in AI building games and interactive systems.
-            </p> */}
           </div>
         </div>
 
@@ -75,8 +71,9 @@ export default function About() {
             <img src={workIcon} alt="This is a work icon" />
             <h3>Experience</h3>
             <ul>
+              <li> <b> May 2026 - August 2026 : </b> <br /> Internship : Research Intern in 3D Cadastral, UX Design and 3D Geovisualization </li>
               <li> <b> March 2025 - May 2025 : </b> <br /> Internship : Video Editor at Hockey Québec </li>
-              <li> <b> July 2024 - Current : </b> <br /> Bagger at Metro</li>
+              <li> <b> July 2024 - June 2026 : </b> <br /> Bagger at Metro</li>
             </ul>
             {/* <ul>
               <li>Web development : 4 years</li>
