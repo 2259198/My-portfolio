@@ -55,6 +55,9 @@ import escapeTheLabyrinthImg3 from "../assets/ProjectsPhotosExtra/EscapeTheLabyr
 import escapeTheLabyrinthImg4 from "../assets/ProjectsPhotosExtra/EscapeTheLabyrinth/EscapeTheLabyrinth4.png";
 import escapeTheLabyrinthImgBanner from "../assets/ProjectsPhotosExtra/EscapeTheLabyrinth/EscapeTheLabyrinthBanner.png";
 
+import etsResearch from "../assets/Projects/Image_Couverture_.jpg";
+import etsResearchImage1 from "../assets/ProjectsPhotosExtra/ETS/OneShot.png";
+
 
 const projects = [
 
@@ -83,7 +86,7 @@ const projects = [
     description: "A first-person adventure and survival game developed in Unreal Engine as my end-of-semester project at Collège de Maisonneuve.",
     inDepthDescription: "Escape The Labyrinth — End-of-Semester Project (Unreal Engine) \n Escape The Labyrinth is a first-person adventure and survival game developed in Unreal Engine as my final project at Collège de Maisonneuve. The game places the player inside a dark and mysterious labyrinth where survival depends on exploration, quick reflexes and smart decision-making. Players must navigate through an immersive maze filled with dynamic obstacles such as deadly spikes, swinging blades, moving platforms and other environmental hazards. A countdown timer adds constant pressure, pushing players to move efficiently and think strategically in order to find the exit before time runs out.",
     finishedDate: new Date(2025, 1, 24),
-    icon: ["unreal", "blender"],
+    icon: ["blender", "unreal"],
     link: "https://alexrkv11.itch.io/escape-the-labyrinth",
     image: escapeTheLabyrinthLogo,
     projectDetailImage: [
@@ -229,6 +232,18 @@ const projects = [
     projectDetailImage: [
       astroDashImg1,
       astroDashImg2
+    ]
+  },
+  {
+    title: "ÉTS - 3D Cadastral Visualization Research Internship",
+    description: "A research internship at the GRIDD lab at ÉTS focused on 3D cadastral visualization modalities and spatial data perception.",
+    inDepthDescription: "I conducted a research internship under the supervision of Professor Angélique Montuwy within the GRIDD research group. Focused on modeling and visualizing 3D cadastral data across standardized levels of detail (LoD1_1 to LoD3_3) by converting AutoCAD CAD drawings into Blender and integrating them into Unity. With Angélique, we designed, conducted, and analyzed a comprehensive online perception survey gathering over 200 participant responses (to which 130 valid responses) to evaluate different 3D cadastral visualization modalities, with findings later published on the REPER 3D laboratory platform at Université Laval.",
+    finishedDate: new Date(2026, 7, 21),
+    icon: ["blender", "unity"],
+    link: "https://reper3d.ulaval.ca/",
+    image: etsResearch,
+    projectDetailImage: [
+      etsResearchImage1,
     ]
   },
 ].sort((a, b) => a.title.localeCompare(b.title))
